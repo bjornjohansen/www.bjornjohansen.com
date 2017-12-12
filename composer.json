@@ -1,0 +1,69 @@
+{
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        },
+        {
+            "type": "composer",
+            "url": "https://packages.dekodes.no/"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "automattic/intergalactic-2",
+                "version": "2.0.1",
+                "type": "wordpress-theme",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://public-api.wordpress.com/rest/v1/themes/download/intergalactic-2.zip"
+                }
+            }
+        }
+    ],
+    "require": {
+        "composer/installers": "*",
+        "johnpbloch/wordpress": "*",
+        "automattic/intergalactic-2": "*",
+        "wpackagist-plugin/aryo-activity-log": "*",
+        "wpackagist-plugin/disable-emojis": "*",
+        "wpackagist-plugin/slash-edit": "*",
+        "wpackagist-plugin/tablepress": "*",
+        "wpackagist-plugin/tuxedo-big-file-uploads": "*",
+        "wpackagist-plugin/wp-crontrol": "*",
+        "wpackagist-plugin/wp-thumb": "*",
+        "wpackagist-plugin/redirection": "*",
+        "wpackagist-plugin/akismet": "*",
+        "wpackagist-plugin/bj-lazy-load": "*",
+        "wpackagist-plugin/crayon-syntax-highlighter": "*",
+        "wpackagist-plugin/duo-wordpress": "*",
+        "wpackagist-plugin/epoch": "*",
+        "wpackagist-plugin/ewww-image-optimizer": "*",
+        "wpackagist-plugin/google-analytics-dashboard-for-wp": "*",
+        "wpackagist-plugin/oembed-gist": "*",
+        "wpackagist-plugin/public-post-preview": "*",
+        "wpackagist-plugin/public-post-preview-configurator": "*",
+        "wpackagist-plugin/remove-more-jump": "*",
+        "wpackagist-plugin/show-parent-comment": "*",
+        "wpackagist-plugin/simple-comment-editing": "*",
+        "wpackagist-plugin/simple-history": "*",
+        "wpackagist-plugin/slash-edit": "*",
+        "wpackagist-plugin/dvk-social-sharing": "*",
+        "wpackagist-plugin/tuxedo-big-file-uploads": "*",
+        "wpackagist-plugin/user-switching": "*",
+        "wpackagist-plugin/wp-cron-control": "*",
+        "wpackagist-plugin/wp-crontrol": "*",
+        "dekode/wordpress-seo-premium": "*"
+    },
+    "extra": {
+        "wordpress-install-dir": "wp",
+        "installer-paths": {
+            "content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+            "content/plugins/{$name}/": ["type:wordpress-plugin"],
+            "content/themes/{$name}/": ["type:wordpress-theme" ]
+        }
+    },
+    "require-dev": {
+        "bjornjohansen/wp-pre-commit-hook": "*"
+    }
+}
