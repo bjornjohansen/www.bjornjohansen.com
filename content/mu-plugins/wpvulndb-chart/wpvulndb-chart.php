@@ -21,8 +21,8 @@ function wpvulndb_chart( $atts = null, $content = '', $shortcode_name = '' ) {
 
 	$wpvulndb_chart_idx++;
 
-	wp_enqueue_script( 'chartjs', 'https://www.bjornjohansen.no/wp-content/mu-plugins/wpvulndb-chart/Chart.min.js', [], filemtime( dirname( __FILE__ ) . '/Chart.min.js' ), true );
-	wp_enqueue_script( 'wpvulndb-chart', 'https://www.bjornjohansen.no/wp-content/mu-plugins/wpvulndb-chart/wpvulndb-chart.js', [], filemtime( dirname( __FILE__ ) . '/wpvulndb-chart.js' ), true );
+	wp_enqueue_script( 'chartjs', 'https://bjornjohansen.no/content/mu-plugins/wpvulndb-chart/Chart.min.js', [], filemtime( dirname( __FILE__ ) . '/Chart.min.js' ), true );
+	wp_enqueue_script( 'wpvulndb-chart', 'https://bjornjohansen.no/content/mu-plugins/wpvulndb-chart/wpvulndb-chart.js', [], filemtime( dirname( __FILE__ ) . '/wpvulndb-chart.js' ), true );
 
 	$output  = '';
 	$output .= sprintf( '<canvas id="wpvulndb_chart_%d" width="400" height="250" style="width: 100%%; max-width: 100%%"></canvas>', $wpvulndb_chart_idx );
