@@ -39,6 +39,6 @@
 			}
 		}
 	};
-	httpRequest.open('GET', 'https://www.bjornjohansen.no/wpvulndb/plugins-top.json?v=3' );
+	httpRequest.open('GET', 'https://bjornjohansen.no/wpvulndb/plugins-top.json?v=3' );
 	httpRequest.send();
 })();
