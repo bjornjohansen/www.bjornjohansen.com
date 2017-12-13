@@ -25,15 +25,14 @@ define( 'NONCE_SALT', getenv( 'WP_NONCE_SALT' ) );
 $table_prefix = 'bj_';
 
 define( 'WP_CONTENT_DIR', __DIR__ . '/content' );
-define( 'WP_CONTENT_URL', '/content' );
-define( 'UPLOADS', 'media' );
+define( 'WP_CONTENT_URL', 'https://bjornjohansen.no/content' );
 
 if ( ! defined( 'WP_SITEURL' ) ) {
-	define( 'WP_SITEURL', '/wp' );
+	define( 'WP_SITEURL', 'https://bjornjohansen.no/wp' );
 }
 
 if ( ! defined( 'WP_HOME' ) ) {
-	define( 'WP_HOME', '' );
+	define( 'WP_HOME', 'https://bjornjohansen.no' );
 }
 
 /* That's all, stop editing! Happy blogging. */
