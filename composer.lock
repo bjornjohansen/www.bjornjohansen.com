@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "587e654ab856e95ef036fbde00bfcb8b",
-    "content-hash": "b2a75af572279fea02d94cc19a8027ea",
+    "hash": "387eb9e57b3dcc574a1b9c16be3d0890",
+    "content-hash": "b75d9096b2209d91f9a06328865f3817",
     "packages": [
         {
             "name": "automattic/intergalactic-2",
@@ -303,26 +303,6 @@
             "homepage": "https://wordpress.org/plugins/akismet/"
         },
         {
-            "name": "wpackagist-plugin/aryo-activity-log",
-            "version": "2.4.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/aryo-activity-log/",
-                "reference": "tags/2.4.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/aryo-activity-log.2.4.0.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/aryo-activity-log/"
-        },
-        {
             "name": "wpackagist-plugin/bj-lazy-load",
             "version": "1.0.9",
             "source": {
@@ -543,26 +523,6 @@
             "homepage": "https://wordpress.org/plugins/public-post-preview-configurator/"
         },
         {
-            "name": "wpackagist-plugin/redirection",
-            "version": "2.10.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/redirection/",
-                "reference": "tags/2.10.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redirection.2.10.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/redirection/"
-        },
-        {
             "name": "wpackagist-plugin/remove-more-jump",
             "version": "1.0",
             "source": {
@@ -663,26 +623,6 @@
             "homepage": "https://wordpress.org/plugins/slash-edit/"
         },
         {
-            "name": "wpackagist-plugin/tablepress",
-            "version": "1.9",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/tablepress/",
-                "reference": "tags/1.9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/tablepress.1.9.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/tablepress/"
-        },
-        {
             "name": "wpackagist-plugin/tuxedo-big-file-uploads",
             "version": "1.2",
             "source": {
@@ -761,26 +701,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-crontrol/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-thumb",
-            "version": "0.10",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-thumb/",
-                "reference": "tags/0.10"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-thumb.0.10.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-thumb/"
         }
     ],
     "packages-dev": [
