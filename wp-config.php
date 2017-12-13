@@ -26,6 +26,7 @@ $table_prefix = 'bj_';
 
 define( 'WP_CONTENT_DIR', __DIR__ . '/content' );
 define( 'WP_CONTENT_URL', '/content' );
+define( 'UPLOADS', 'media' );
 
 if ( ! defined( 'WP_SITEURL' ) ) {
 	define( 'WP_SITEURL', '/wp' );
