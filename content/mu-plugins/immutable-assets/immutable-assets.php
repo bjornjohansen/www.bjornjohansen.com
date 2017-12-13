@@ -30,7 +30,7 @@ or something like this in your Apache VirtualHost section (or .htaccess):
 </IfModule>
 */
 
-require __DIR__ . '/immutable-assets/class-immutable-assets.php';
+require __DIR__ . '/class-immutable-assets.php';
 
 add_action(
 	'init', function() {
