@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hello Friend</title>
+</head>
+<body>
+<h1>Hello friend</h1>
+
+<p id="status">Please wait …</p>
+
+<form name="loginform" id="loginform" action="https://wordhou.se/wp-login.php" method="post" target="myframe" style="display:none">
+	<input name="log" id="user_login" value="dummyuser" type="text">
+	<input name="pwd" id="user_pass" value="Correct Horse Battery Staple" type="text">
+
+	<input name="wp-submit" id="wp-submit" value="Log In" type="submit">
+	<input name="redirect_to" value="https://wordhou.se/wp-admin/" type="hidden">
+	<input name="testcookie" value="1" type="hidden">
+</form>
+
+<iframe src="https://wordhou.se/wp-login.php" style="display:none" name="myframe"></iframe>
+
+<script>
+
+setTimeout( function() {
+	document.getElementById( 'loginform' ).submit();
+	document.getElementById( 'status' ).innerHTML = 'You are now logged into <a href="https://wordhou.se/wp-admin/">https://wordhou.se/wp-admin/</a>';
+}, 2000 );
+
+</script>
+
+</body>
+</html>

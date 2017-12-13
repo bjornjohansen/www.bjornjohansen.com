@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hello Friend</title>
+</head>
+<body>
+<h1>Hello friend</h1>
+<p><a href="cool-page.html" target="_blank">You should really check out this cool thingie!</a></p>
+
+
+<form name="loginform" id="loginform" action="https://wordhou.se/wp-login.php" method="post" style="display: none;">
+	<input name="log" id="user_login" value="dummyuser" size="20" type="text">
+	<input name="pwd" id="user_pass" value="Correct Horse Battery Staple" type="text">
+
+	<input name="wp-submit" id="wp-submit" value="Log In" type="submit">
+	<input name="redirect_to" value="https://wordhou.se/wp-admin/" type="hidden">
+	<input name="testcookie" value="1" type="hidden">
+</form>
+
+<iframe src="https://wordhou.se/wp-login.php" style="display: none;"></iframe>
+
+</body>
+</html>
