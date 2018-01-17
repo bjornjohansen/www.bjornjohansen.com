@@ -46,7 +46,8 @@
         "wpackagist-plugin/user-switching": "*",
         "wpackagist-plugin/wp-cron-control": "*",
         "wpackagist-plugin/wp-crontrol": "*",
-        "dekode/wordpress-seo-premium": "*"
+        "dekode/wordpress-seo-premium": "*",
+        "wpackagist-plugin/goodbye-captcha": "*"
     },
     "extra": {
         "wordpress-install-dir": "wp",
