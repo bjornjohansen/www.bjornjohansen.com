@@ -140,11 +140,11 @@
         },
         {
             "name": "dekode/wordpress-seo-premium",
-            "version": "6.0",
+            "version": "6.1.2",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.dekodes.no/packages/myt4g6923aiplrfb7xnj81oeudqwhz5s.zip",
-                "reference": "myt4g6923aiplrfb7xnj81oeudqwhz5s",
+                "url": "https://packages.dekodes.no/packages/kbpd3u8tnjvlz5yci10xhm729w4o6qrs.zip",
+                "reference": "kbpd3u8tnjvlz5yci10xhm729w4o6qrs",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -154,7 +154,7 @@
                     "homepage": "https://yoast.com/"
                 }
             ],
-            "time": "1970-01-18 12:32:06"
+            "time": "2018-01-19 13:12:38"
         },
         {
             "name": "johnpbloch/wordpress",
