@@ -46,6 +46,7 @@
         "wpackagist-plugin/user-switching": "*",
         "wpackagist-plugin/wp-cron-control": "*",
         "wpackagist-plugin/wp-crontrol": "*",
+        "wpackagist-plugin/gutenberg": "*",
         "dekode/wordpress-seo-premium": "*",
         "wpackagist-plugin/goodbye-captcha": "*"
     },
