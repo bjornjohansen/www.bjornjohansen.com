@@ -22,7 +22,6 @@
         "wpackagist-plugin/oembed-gist": "*",
         "wpackagist-plugin/public-post-preview": "*",
         "wpackagist-plugin/public-post-preview-configurator": "*",
-        "wpackagist-plugin/remove-more-jump": "*",
         "wpackagist-plugin/show-parent-comment": "*",
         "wpackagist-plugin/simple-comment-editing": "*",
         "wpackagist-plugin/simple-history": "*",
