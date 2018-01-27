@@ -7,24 +7,11 @@
         {
             "type": "composer",
             "url": "https://packages.dekodes.no/"
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "automattic/intergalactic-2",
-                "version": "2.0.1",
-                "type": "wordpress-theme",
-                "dist": {
-                    "type": "zip",
-                    "url": "https://public-api.wordpress.com/rest/v1/themes/download/intergalactic-2.zip"
-                }
-            }
         }
     ],
     "require": {
         "composer/installers": "*",
         "johnpbloch/wordpress": "*",
-        "automattic/intergalactic-2": "*",
         "wpackagist-plugin/disable-emojis": "*",
         "wpackagist-plugin/akismet": "*",
         "wpackagist-plugin/bj-lazy-load": "*",
