@@ -31,7 +31,7 @@ function display_ad( $content ) {
 
 		$ad_content = '<hr><p>By the way: <a href="https://bjornjohansen.no/welcome-to-wordcamp-oslo-2018">Check out the WordPress conference <span style="white-space:nowrap">WordCamp Oslo 2018</span></a></p><hr>';
 
-		$content = $ad_content . $content . $ad_content;
+		$content = $content . $ad_content;
 	}
 
 	return $content;
