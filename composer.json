@@ -15,7 +15,6 @@
         "wpackagist-plugin/disable-emojis": "*",
         "wpackagist-plugin/akismet": "*",
         "wpackagist-plugin/bj-lazy-load": "*",
-        "wpackagist-plugin/crayon-syntax-highlighter": "*",
         "wpackagist-plugin/duo-wordpress": "*",
         "wpackagist-plugin/epoch": "*",
         "wpackagist-plugin/ewww-image-optimizer": "*",
