@@ -9,16 +9,16 @@
     "packages": [
         {
             "name": "bjornjohansen/spiderbear",
-            "version": "0.1.1",
+            "version": "0.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bjornjohansen/SpiderBear.git",
-                "reference": "01f29ae0089ae42380a09ac0b0888c932fb444b0"
+                "reference": "9be141bce727da81b9e5098d1bfcab89e6087dbe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bjornjohansen/SpiderBear/zipball/01f29ae0089ae42380a09ac0b0888c932fb444b0",
-                "reference": "01f29ae0089ae42380a09ac0b0888c932fb444b0",
+                "url": "https://api.github.com/repos/bjornjohansen/SpiderBear/zipball/9be141bce727da81b9e5098d1bfcab89e6087dbe",
+                "reference": "9be141bce727da81b9e5098d1bfcab89e6087dbe",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -38,7 +38,7 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2018-01-28 00:09:34"
+            "time": "2018-01-28 00:36:30"
         },
         {
             "name": "composer/installers",
