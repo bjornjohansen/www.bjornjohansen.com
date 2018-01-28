@@ -12,6 +12,7 @@
     "require": {
         "composer/installers": "*",
         "johnpbloch/wordpress": "*",
+        "bjornjohansen/spiderbear": "*",
         "wpackagist-plugin/disable-emojis": "*",
         "wpackagist-plugin/akismet": "*",
         "wpackagist-plugin/bj-lazy-load": "*",
