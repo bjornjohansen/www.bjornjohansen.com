@@ -29,6 +29,8 @@ define( 'WP_CONTENT_URL', 'https://bjornjohansen.no/content' );
 
 define( 'DISALLOW_FILE_MODS', true );
 
+define( 'CONCATENATE_SCRIPTS', false );
+
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
