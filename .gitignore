@@ -2,3 +2,7 @@ content/plugins
 vendor
 content/themes
 wp
+.idea
+content/ewww
+content/uploads
+debug.log
