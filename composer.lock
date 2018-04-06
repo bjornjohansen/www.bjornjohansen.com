@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6e68457974af2712c437119cf7871579",
-    "content-hash": "e4da1652afeec9f4b541d2a3a2c7b899",
+    "hash": "f01832debe04332ea1aa9573d2b35200",
+    "content-hash": "65482958e8386680cbfa5269c300189b",
     "packages": [
         {
             "name": "bjornjohansen/spiderbear",
@@ -327,26 +327,6 @@
             "homepage": "https://wordpress.org/plugins/akismet/"
         },
         {
-            "name": "wpackagist-plugin/bj-lazy-load",
-            "version": "1.0.9",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/bj-lazy-load/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/bj-lazy-load.zip?timestamp=1502280365",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/bj-lazy-load/"
-        },
-        {
             "name": "wpackagist-plugin/disable-emojis",
             "version": "1.7",
             "source": {
@@ -385,26 +365,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/duo-wordpress/"
-        },
-        {
-            "name": "wpackagist-plugin/dvk-social-sharing",
-            "version": "1.3.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/dvk-social-sharing/",
-                "reference": "tags/1.3.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/dvk-social-sharing.1.3.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/dvk-social-sharing/"
         },
         {
             "name": "wpackagist-plugin/epoch",
@@ -447,56 +407,16 @@
             "homepage": "https://wordpress.org/plugins/ewww-image-optimizer/"
         },
         {
-            "name": "wpackagist-plugin/goodbye-captcha",
-            "version": "3.1.17",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/goodbye-captcha/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/goodbye-captcha.zip?timestamp=1521952211",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/goodbye-captcha/"
-        },
-        {
-            "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
-            "version": "5.3.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/",
-                "reference": "tags/5.3.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.5.3.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/google-analytics-dashboard-for-wp/"
-        },
-        {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "2.5.0",
+            "version": "2.6.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/2.5.0"
+                "reference": "tags/2.6.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.2.5.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.2.6.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -525,46 +445,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/oembed-gist/"
-        },
-        {
-            "name": "wpackagist-plugin/public-post-preview",
-            "version": "2.6.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/public-post-preview/",
-                "reference": "tags/2.6.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/public-post-preview.2.6.0.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/public-post-preview/"
-        },
-        {
-            "name": "wpackagist-plugin/public-post-preview-configurator",
-            "version": "1.0.3",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/public-post-preview-configurator/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/public-post-preview-configurator.zip?timestamp=1486759675",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/public-post-preview-configurator/"
         },
         {
             "name": "wpackagist-plugin/show-parent-comment",
