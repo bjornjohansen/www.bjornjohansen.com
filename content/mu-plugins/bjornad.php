@@ -27,9 +27,9 @@ add_shortcode( 'bjornad', '\BJ\Ads\bjornad_func' );
  */
 function display_ad( $content ) {
 
-	if ( is_single() && 2124 !== get_the_ID() ) {
+	if ( is_single() ) {
 
-		$ad_content = '<hr><p>By the way: <a href="https://bjornjohansen.no/welcome-to-wordcamp-oslo-2018">Check out the WordPress conference <span style="white-space:nowrap">WordCamp Oslo 2018</span></a></p><hr>';
+		$ad_content = '<hr><p>By the way: If you want hassle-free, amazingly fast web hosting, you should check out <a href="https://servebolt.com/?ref=bjornjohansen">Servebolt</a> (affiliate link). They’ll even transfer your site for free.</p><hr>';
 
 		$content = $content . $ad_content;
 	}
