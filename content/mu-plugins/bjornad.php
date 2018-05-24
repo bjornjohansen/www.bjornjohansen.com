@@ -41,7 +41,7 @@ add_filter( 'the_content', '\BJ\Ads\display_ad' );
 
 
 /**
- * Add an advertisement right after the “read more” separator.
+ * Add an advertisement right before the “read more” separator.
  */
 add_filter(
 	'the_content', function ( $content ) {
@@ -49,12 +49,18 @@ add_filter(
 			return $content;
 		}
 
-		$ad = '<div style="border-top: 1px solid #aaa; border-bottom: 1px solid #aaa;"><div style="font-size: 0.75em; color: #aaa;">Advertisement:</div><div style="text-align: center"><a href="https://servebolt.com/platforms/wordpress/?ref=bjornjohansen" rel="nofollow"><img src="https://bjornjohansen.no/content/uploads/2018/05/servebolt-ad.png" border="0"></a></div></div>';
+		$ad = '<div style="border-top: 1px solid #aaa; border-bottom: 1px solid #aaa;"><div style="font-size: 0.75em; color: #aaa; padding-bottom: 1em;">Advertisement:</div><div style="text-align: center"><a href="https://servebolt.com/platforms/wordpress/?ref=bjornjohansen" rel="nofollow"><img src="https://bjornjohansen.no/content/uploads/2018/05/servebolt-ad.png" border="0"></a></div></div>';
 
-		if ( false !== strpos( $content, '<!--more-->' ) ) {
-			$content = str_replace( '<!--more-->', '<!--more-->' . $ad, $content );
+		if ( strpos( $content, '<!--more-->' ) ) {
+			$content = str_replace( '<!--more-->', $ad . '<!--more-->', $content );
+		} elseif ( strpos( $content, '<p><span id="more-' ) ) {
+			$content = str_replace( '<p><span id="more-', $ad . '<p><span id="more-', $content );
+		} elseif ( strpos( $content, '<span id="more-' ) ) {
+			$content = str_replace( '<span id="more-', $ad . '<span id="more-', $content );
+		} else {
+			$content = $meta . $content;
 		}
 
 		return $content;
-	}, 10, 1
+	}, 11, 1
 );
