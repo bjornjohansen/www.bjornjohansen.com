@@ -1,10 +1,9 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "f01832debe04332ea1aa9573d2b35200",
     "content-hash": "65482958e8386680cbfa5269c300189b",
     "packages": [
         {
@@ -38,7 +37,7 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2018-02-13 14:20:17"
+            "time": "2018-02-13T14:20:17+00:00"
         },
         {
             "name": "composer/installers",
@@ -158,7 +157,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2017-12-29 09:13:20"
+            "time": "2017-12-29T09:13:20+00:00"
         },
         {
             "name": "dekode/wordpress-seo-premium",
@@ -176,7 +175,7 @@
                     "homepage": "https://yoast.com/"
                 }
             ],
-            "time": "1970-01-18 15:28:06"
+            "time": "1970-01-18T15:28:06+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -215,7 +214,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2018-05-17 20:03:03"
+            "time": "2018-05-17T20:03:03+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
@@ -255,7 +254,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2018-05-17 20:02:55"
+            "time": "2018-05-17T20:02:55+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -304,7 +303,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2018-01-29 14:49:29"
+            "time": "2018-01-29T14:49:29+00:00"
         },
         {
             "name": "wpackagist-plugin/akismet",
@@ -328,15 +327,15 @@
         },
         {
             "name": "wpackagist-plugin/disable-emojis",
-            "version": "1.7",
+            "version": "1.7.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/disable-emojis/",
-                "reference": "tags/1.7"
+                "reference": "tags/1.7.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/disable-emojis.1.7.zip",
+                "url": "https://downloads.wordpress.org/plugin/disable-emojis.1.7.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -627,7 +626,7 @@
                 }
             ],
             "description": "Pre-commit hook for WordPress projects",
-            "time": "2018-03-15 13:54:08"
+            "time": "2018-03-15T13:54:08+00:00"
         },
         {
             "name": "dealerdirect/phpcodesniffer-composer-installer",
@@ -695,7 +694,7 @@
                 "stylecheck",
                 "tests"
             ],
-            "time": "2017-12-06 16:27:17"
+            "time": "2017-12-06T16:27:17+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -746,7 +745,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2018-06-06 23:58:19"
+            "time": "2018-06-06T23:58:19+00:00"
         },
         {
             "name": "wp-coding-standards/wpcs",
@@ -786,7 +785,7 @@
                 "standards",
                 "wordpress"
             ],
-            "time": "2018-02-16 01:57:48"
+            "time": "2018-02-16T01:57:48+00:00"
         }
     ],
     "aliases": [],
