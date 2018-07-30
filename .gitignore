@@ -6,3 +6,4 @@ wp
 content/ewww
 content/uploads
 debug.log
+auth.json

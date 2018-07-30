@@ -38,5 +38,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', dirname( __FILE__ ) . '/wp/' );
 }
 
+/** Include The Composer autoloader. */
+require_once dirname( ABSPATH ) . '/vendor/autoload.php';
+
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';

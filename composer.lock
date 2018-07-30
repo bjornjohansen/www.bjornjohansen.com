@@ -1,10 +1,11 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "65482958e8386680cbfa5269c300189b",
+    "hash": "37ed0ed7898fb7f764269f08341684f7",
+    "content-hash": "9e2fc21dfc7e74c423c7e5ccff857026",
     "packages": [
         {
             "name": "bjornjohansen/spiderbear",
@@ -37,7 +38,7 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2018-02-13T14:20:17+00:00"
+            "time": "2018-02-13 14:20:17"
         },
         {
             "name": "composer/installers",
@@ -157,25 +158,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2017-12-29T09:13:20+00:00"
-        },
-        {
-            "name": "dekode/wordpress-seo-premium",
-            "version": "7.3",
-            "dist": {
-                "type": "zip",
-                "url": "https://packages.dekodes.no/packages/sq43vohwmgz0leifabnxpk2utr195djy.zip",
-                "reference": "sq43vohwmgz0leifabnxpk2utr195djy",
-                "shasum": ""
-            },
-            "type": "wordpress-plugin",
-            "authors": [
-                {
-                    "name": "Team Yoast",
-                    "homepage": "https://yoast.com/"
-                }
-            ],
-            "time": "1970-01-18T15:28:06+00:00"
+            "time": "2017-12-29 09:13:20"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -214,7 +197,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2018-07-05T18:12:19+00:00"
+            "time": "2018-07-05 18:12:19"
         },
         {
             "name": "johnpbloch/wordpress-core",
@@ -254,7 +237,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2018-07-05T18:12:13+00:00"
+            "time": "2018-07-05 18:12:13"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -303,7 +286,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2018-01-29T14:49:29+00:00"
+            "time": "2018-01-29 14:49:29"
         },
         {
             "name": "wpackagist-plugin/akismet",
@@ -316,7 +299,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/akismet.4.0.8.zip",
-                "reference": null,
+                "reference": "tags/4.0.8",
                 "shasum": null
             },
             "require": {
@@ -336,7 +319,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/disable-emojis.1.7.2.zip",
-                "reference": null,
+                "reference": "tags/1.7.2",
                 "shasum": null
             },
             "require": {
@@ -356,7 +339,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/duo-wordpress.2.5.4.zip",
-                "reference": null,
+                "reference": "tags/2.5.4",
                 "shasum": null
             },
             "require": {
@@ -376,7 +359,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/epoch.1.0.14.zip",
-                "reference": null,
+                "reference": "tags/1.0.14",
                 "shasum": null
             },
             "require": {
@@ -396,7 +379,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.4.2.3.zip",
-                "reference": null,
+                "reference": "tags/4.2.3",
                 "shasum": null
             },
             "require": {
@@ -416,7 +399,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/gutenberg.3.3.0.zip",
-                "reference": null,
+                "reference": "tags/3.3.0",
                 "shasum": null
             },
             "require": {
@@ -436,7 +419,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/oembed-gist.4.9.1.zip",
-                "reference": null,
+                "reference": "tags/4.9.1",
                 "shasum": null
             },
             "require": {
@@ -456,7 +439,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/show-parent-comment.0.2.1.zip",
-                "reference": null,
+                "reference": "tags/0.2.1",
                 "shasum": null
             },
             "require": {
@@ -476,7 +459,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/simple-comment-editing.2.1.11.zip",
-                "reference": null,
+                "reference": "tags/2.1.11",
                 "shasum": null
             },
             "require": {
@@ -496,7 +479,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/simple-history.2.26.1.zip",
-                "reference": null,
+                "reference": "tags/2.26.1",
                 "shasum": null
             },
             "require": {
@@ -516,7 +499,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/tuxedo-big-file-uploads.1.2.zip",
-                "reference": null,
+                "reference": "tags/1.2",
                 "shasum": null
             },
             "require": {
@@ -536,7 +519,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/user-switching.1.3.1.zip",
-                "reference": null,
+                "reference": "tags/1.3.1",
                 "shasum": null
             },
             "require": {
@@ -556,7 +539,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-cron-control.0.7.1.zip",
-                "reference": null,
+                "reference": "tags/0.7.1",
                 "shasum": null
             },
             "require": {
@@ -576,7 +559,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-crontrol.1.6.2.zip",
-                "reference": null,
+                "reference": "tags/1.6.2",
                 "shasum": null
             },
             "require": {
@@ -584,6 +567,358 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-crontrol/"
+        },
+        {
+            "name": "xrstf/composer-php52",
+            "version": "v1.0.20",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer-php52/composer-php52.git",
+                "reference": "bd41459d5e27df8d33057842b32377c39e97a5a8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer-php52/composer-php52/zipball/bd41459d5e27df8d33057842b32377c39e97a5a8",
+                "reference": "bd41459d5e27df8d33057842b32377c39e97a5a8",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-default": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "xrstf\\Composer52": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2016-04-16 21:52:24"
+        },
+        {
+            "name": "yoast/api-libs",
+            "version": "2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Yoast/api-libs.git",
+                "reference": "e7361081a1d6ae79c0b96c8363379435ea736ef8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://my.yoast.com/packages/dist/yoast/api-libs/yoast-api-libs-e7361081a1d6ae79c0b96c8363379435ea736ef8-zip-1dbe2c.zip",
+                "reference": "e7361081a1d6ae79c0b96c8363379435ea736ef8",
+                "shasum": "911f17e613379e14c0550c6665a522e66e3f844c"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "class-api-libs.php"
+                ]
+            },
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Team Yoast",
+                    "email": "support@yoast.com",
+                    "homepage": "https://yoast.com"
+                }
+            ],
+            "description": "Shared API libraries for Yoast projects.",
+            "homepage": "https://github.com/Yoast/api-libs",
+            "keywords": [
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/Yoast/api-libs/issues",
+                "source": "https://github.com/Yoast/api-libs/tree/2.0"
+            },
+            "time": "2015-07-14 10:25:59"
+        },
+        {
+            "name": "yoast/i18n-module",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Yoast/i18n-module.git",
+                "reference": "76b1645aaf8cf9a07dc06ec0bbe2a6838feeed4c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://my.yoast.com/packages/dist/yoast/i18n-module/yoast-i18n-module-76b1645aaf8cf9a07dc06ec0bbe2a6838feeed4c-zip-49ef3c.zip",
+                "reference": "76b1645aaf8cf9a07dc06ec0bbe2a6838feeed4c",
+                "shasum": "107bba6f652e7770c288e44374b81b50d5306fdf"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Team Yoast",
+                    "email": "support@yoast.com",
+                    "homepage": "https://yoast.com"
+                }
+            ],
+            "description": "Handle i18n for WordPress plugins.",
+            "homepage": "https://github.com/Yoast/i18n-module",
+            "keywords": [
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/Yoast/i18n-module/issues",
+                "source": "https://github.com/Yoast/i18n-module/tree/3.0.0"
+            },
+            "time": "2017-09-06 07:17:52"
+        },
+        {
+            "name": "yoast/license-manager",
+            "version": "1.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Yoast/License-Manager.git",
+                "reference": "fbacabb06d788912fead4f32d0d1d8b9a2d883c9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://my.yoast.com/packages/dist/yoast/license-manager/yoast-license-manager-fbacabb06d788912fead4f32d0d1d8b9a2d883c9-zip-5d9715.zip",
+                "reference": "fbacabb06d788912fead4f32d0d1d8b9a2d883c9",
+                "shasum": "043ccf138562098d0055fc47f3feefc503567936"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "class-api-request.php",
+                    "class-license-manager.php",
+                    "class-plugin-license-manager.php",
+                    "class-plugin-update-manager.php",
+                    "class-product.php",
+                    "class-theme-license-manager.php",
+                    "class-theme-update-manager.php",
+                    "class-update-manager.php"
+                ]
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Team Yoast",
+                    "email": "support@yoast.com",
+                    "homepage": "https://yoast.com"
+                }
+            ],
+            "description": "Yoast License Manager.",
+            "homepage": "https://github.com/Yoast/License-Manager",
+            "keywords": [
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/Yoast/License-Manager/issues",
+                "source": "https://github.com/Yoast/License-Manager/tree/1.6.0"
+            },
+            "time": "2017-08-22 07:59:16"
+        },
+        {
+            "name": "yoast/whip",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Yoast/whip.git",
+                "reference": "f66106f5030a8f426ea2f0314bae814862336db1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://my.yoast.com/packages/dist/yoast/whip/yoast-whip-f66106f5030a8f426ea2f0314bae814862336db1-zip-efa0d3.zip",
+                "reference": "f66106f5030a8f426ea2f0314bae814862336db1",
+                "shasum": "fdd13b9fdfaea192359541dd3e659b92b8388b8b"
+            },
+            "require": {
+                "xrstf/composer-php52": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^3.6.12"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/facades/wordpress.php"
+                ],
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "scripts": {
+                "post-install-cmd": [
+                    "xrstf\\Composer52\\Generator::onPostInstallCmd"
+                ],
+                "post-update-cmd": [
+                    "xrstf\\Composer52\\Generator::onPostInstallCmd"
+                ],
+                "post-autoload-dump": [
+                    "xrstf\\Composer52\\Generator::onPostInstallCmd"
+                ],
+                "test": [
+                    "vendor/bin/phpunit"
+                ]
+            },
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Team Yoast",
+                    "email": "support@yoast.com"
+                }
+            ],
+            "description": "A WordPress package to nudge users to upgrade their software versions (starting with PHP)",
+            "support": {
+                "source": "https://github.com/Yoast/whip/tree/1.1.0",
+                "issues": "https://github.com/Yoast/whip/issues"
+            },
+            "time": "2017-08-04 10:00:35"
+        },
+        {
+            "name": "yoast/wordpress-seo-premium",
+            "version": "7.9",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:Yoast/wordpress-seo-premium.git",
+                "reference": "e29a0027f1c06e88816bb5462fd1447cf27826ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-e29a0027f1c06e88816bb5462fd1447cf27826ca-zip-17b7db.zip",
+                "reference": "e29a0027f1c06e88816bb5462fd1447cf27826ca",
+                "shasum": "a78507ac468440a1a7e78df0f17808d0bf8ebbbf"
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "xrstf/composer-php52": "^1.0.20",
+                "yoast/api-libs": "^2.0",
+                "yoast/i18n-module": "^3.0",
+                "yoast/license-manager": "1.6.0",
+                "yoast/whip": "^1.1",
+                "yoast/wp-helpscout": "^2.0"
+            },
+            "require-dev": {
+                "roave/security-advisories": "dev-master",
+                "yoast/php-development-environment": "^1.0",
+                "yoast/yoastcs": "~0.4.3"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "classmap": [
+                    "admin/",
+                    "frontend/",
+                    "inc/",
+                    "deprecated/",
+                    "cli/",
+                    "premium/cli/"
+                ]
+            },
+            "autoload-dev": {
+                "classmap": [
+                    "tests/"
+                ]
+            },
+            "scripts": {
+                "config-yoastcs": [
+                    "\"vendor/bin/phpcs\" --config-set installed_paths ../../../vendor/wp-coding-standards/wpcs,../../../vendor/yoast/yoastcs",
+                    "\"vendor/bin/phpcs\" --config-set default_standard Yoast"
+                ],
+                "check-cs": [
+                    "\"vendor/bin/phpcs\""
+                ],
+                "check-cs-errors": [
+                    "\"vendor/bin/phpcs\" --error-severity=1 --warning-severity=6"
+                ],
+                "fix-cs": [
+                    "\"vendor/bin/phpcbf\""
+                ],
+                "post-install-cmd": [
+                    "xrstf\\Composer52\\Generator::onPostInstallCmd"
+                ],
+                "post-update-cmd": [
+                    "xrstf\\Composer52\\Generator::onPostInstallCmd"
+                ],
+                "post-autoload-dump": [
+                    "xrstf\\Composer52\\Generator::onPostInstallCmd"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Team Yoast",
+                    "email": "support@yoast.com",
+                    "homepage": "https://yoa.st/1--"
+                }
+            ],
+            "description": "Improve your WordPress SEO: Write better content and have a fully optimized WordPress site using the Yoast SEO plugin.",
+            "homepage": "https://yoa.st/1ui",
+            "keywords": [
+                "seo",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/Yoast/wordpress-seo/issues",
+                "forum": "https://wordpress.org/support/plugin/wordpress-seo",
+                "wiki": "https://github.com/Yoast/wordpress-seo/wiki",
+                "source": "https://github.com/Yoast/wordpress-seo"
+            },
+            "time": "2018-07-24 09:56:26"
+        },
+        {
+            "name": "yoast/wp-helpscout",
+            "version": "2.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Yoast/wp-helpscout.git",
+                "reference": "00c6d777497c935af76ba1b4962823165139bbbc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://my.yoast.com/packages/dist/yoast/wp-helpscout/yoast-wp-helpscout-00c6d777497c935af76ba1b4962823165139bbbc-zip-6c3bb8.zip",
+                "reference": "00c6d777497c935af76ba1b4962823165139bbbc",
+                "shasum": "9d98740bc207322067e7c087e1fe0955fdb5a53a"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ],
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Team Yoast",
+                    "email": "support@yoast.com",
+                    "homepage": "https://yoast.com"
+                }
+            ],
+            "description": "A package to integrate the helpscout beacon into WordPress",
+            "support": {
+                "source": "https://github.com/Yoast/wp-helpscout/tree/2.0.3",
+                "issues": "https://github.com/Yoast/wp-helpscout/issues"
+            },
+            "time": "2017-08-03 07:48:33"
         }
     ],
     "packages-dev": [
@@ -626,7 +961,7 @@
                 }
             ],
             "description": "Pre-commit hook for WordPress projects",
-            "time": "2018-03-15T13:54:08+00:00"
+            "time": "2018-03-15 13:54:08"
         },
         {
             "name": "dealerdirect/phpcodesniffer-composer-installer",
@@ -694,20 +1029,20 @@
                 "stylecheck",
                 "tests"
             ],
-            "time": "2017-12-06T16:27:17+00:00"
+            "time": "2017-12-06 16:27:17"
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.3.0",
+            "version": "3.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "d86873af43b4aa9d1f39a3601cc0cfcf02b25266"
+                "reference": "628a481780561150481a9ec74709092b9759b3ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/d86873af43b4aa9d1f39a3601cc0cfcf02b25266",
-                "reference": "d86873af43b4aa9d1f39a3601cc0cfcf02b25266",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/628a481780561150481a9ec74709092b9759b3ec",
+                "reference": "628a481780561150481a9ec74709092b9759b3ec",
                 "shasum": ""
             },
             "require": {
@@ -745,28 +1080,31 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2018-06-06T23:58:19+00:00"
+            "time": "2018-07-26 23:47:18"
         },
         {
             "name": "wp-coding-standards/wpcs",
-            "version": "0.14.1",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards.git",
-                "reference": "cf6b310caad735816caef7573295f8a534374706"
+                "reference": "539c6d74e6207daa22b7ea754d6f103e9abb2755"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress-Coding-Standards/WordPress-Coding-Standards/zipball/cf6b310caad735816caef7573295f8a534374706",
-                "reference": "cf6b310caad735816caef7573295f8a534374706",
+                "url": "https://api.github.com/repos/WordPress-Coding-Standards/WordPress-Coding-Standards/zipball/539c6d74e6207daa22b7ea754d6f103e9abb2755",
+                "reference": "539c6d74e6207daa22b7ea754d6f103e9abb2755",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3",
                 "squizlabs/php_codesniffer": "^2.9.0 || ^3.0.2"
             },
+            "require-dev": {
+                "phpcompatibility/php-compatibility": "*"
+            },
             "suggest": {
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.4.3"
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.4.3 || This Composer plugin will sort out the PHPCS 'installed_paths' automatically."
             },
             "type": "phpcodesniffer-standard",
             "notification-url": "https://packagist.org/downloads/",
@@ -785,7 +1123,7 @@
                 "standards",
                 "wordpress"
             ],
-            "time": "2018-02-16T01:57:48+00:00"
+            "time": "2018-07-25 18:10:35"
         }
     ],
     "aliases": [],
