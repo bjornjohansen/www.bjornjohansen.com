@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9e2fc21dfc7e74c423c7e5ccff857026",
+    "content-hash": "27212b6848ffa5c33f72d78944ac23dc",
     "packages": [
         {
             "name": "bjornjohansen/spiderbear",
@@ -789,17 +789,17 @@
         },
         {
             "name": "yoast/wordpress-seo-premium",
-            "version": "7.9.1",
+            "version": "8.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:Yoast/wordpress-seo-premium.git",
-                "reference": "604bd39fb9f822f6dff861595f3a503516108bc9"
+                "reference": "03e3272dbc7d31638ccbffeeb71eefb5e17db474"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-604bd39fb9f822f6dff861595f3a503516108bc9-zip-c5f8ba.zip",
-                "reference": "604bd39fb9f822f6dff861595f3a503516108bc9",
-                "shasum": "3d5aeb2021ca1c2f792b4d4abf0eb864c6ee72c4"
+                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-03e3272dbc7d31638ccbffeeb71eefb5e17db474-zip-a6707f.zip",
+                "reference": "03e3272dbc7d31638ccbffeeb71eefb5e17db474",
+                "shasum": "c3e2e4ef87551714e18b6d77a1684f6396f96073"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -877,7 +877,7 @@
                 "wiki": "https://github.com/Yoast/wordpress-seo/wiki",
                 "source": "https://github.com/Yoast/wordpress-seo"
             },
-            "time": "2018-08-07T08:17:02+00:00"
+            "time": "2018-08-14T09:38:05+00:00"
         },
         {
             "name": "yoast/wp-helpscout",
