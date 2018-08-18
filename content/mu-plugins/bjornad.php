@@ -37,12 +37,13 @@ function display_ad( $content ) {
 	return $content;
 
 }
-add_filter( 'the_content', '\BJ\Ads\display_ad' );
+//add_filter( 'the_content', '\BJ\Ads\display_ad' );
 
 
 /**
  * Add an advertisement right before the “read more” separator.
  */
+/*
 add_filter(
 	'the_content', function ( $content ) {
 		if ( ! is_singular() ) {
@@ -64,3 +65,4 @@ add_filter(
 		return $content;
 	}, 11, 1
 );
+*/
