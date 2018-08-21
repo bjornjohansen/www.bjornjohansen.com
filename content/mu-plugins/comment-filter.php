@@ -22,7 +22,7 @@ function comment_filter_cyrillic( $approved, $commentdata ) {
 	$comment_content = $commentdata['comment_content'];
 
 	// Remove all whitespaces.
-	$input = preg_replace( '/\s/', '', $input );
+	$input = preg_replace( '/\s/', '', $comment_content );
 
 	$orgin_len = mb_strlen( $input );
 
