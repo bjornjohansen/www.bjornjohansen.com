@@ -729,77 +729,18 @@
             "time": "2017-08-22T07:59:16+00:00"
         },
         {
-            "name": "yoast/whip",
-            "version": "1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Yoast/whip.git",
-                "reference": "f66106f5030a8f426ea2f0314bae814862336db1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/whip/yoast-whip-f66106f5030a8f426ea2f0314bae814862336db1-zip-efa0d3.zip",
-                "reference": "f66106f5030a8f426ea2f0314bae814862336db1",
-                "shasum": "fdd13b9fdfaea192359541dd3e659b92b8388b8b"
-            },
-            "require": {
-                "xrstf/composer-php52": "^1.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^3.6.12"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "src/facades/wordpress.php"
-                ],
-                "classmap": [
-                    "src/"
-                ]
-            },
-            "scripts": {
-                "post-install-cmd": [
-                    "xrstf\\Composer52\\Generator::onPostInstallCmd"
-                ],
-                "post-update-cmd": [
-                    "xrstf\\Composer52\\Generator::onPostInstallCmd"
-                ],
-                "post-autoload-dump": [
-                    "xrstf\\Composer52\\Generator::onPostInstallCmd"
-                ],
-                "test": [
-                    "vendor/bin/phpunit"
-                ]
-            },
-            "license": [
-                "GPL-3.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Team Yoast",
-                    "email": "support@yoast.com"
-                }
-            ],
-            "description": "A WordPress package to nudge users to upgrade their software versions (starting with PHP)",
-            "support": {
-                "source": "https://github.com/Yoast/whip/tree/1.1.0",
-                "issues": "https://github.com/Yoast/whip/issues"
-            },
-            "time": "2017-08-04T10:00:35+00:00"
-        },
-        {
             "name": "yoast/wordpress-seo-premium",
-            "version": "8.0",
+            "version": "8.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:Yoast/wordpress-seo-premium.git",
-                "reference": "03e3272dbc7d31638ccbffeeb71eefb5e17db474"
+                "reference": "b9ff7772b075835d7398ab500ccc59543cd2b392"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-03e3272dbc7d31638ccbffeeb71eefb5e17db474-zip-a6707f.zip",
-                "reference": "03e3272dbc7d31638ccbffeeb71eefb5e17db474",
-                "shasum": "c3e2e4ef87551714e18b6d77a1684f6396f96073"
+                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-b9ff7772b075835d7398ab500ccc59543cd2b392-zip-5c93fb.zip",
+                "reference": "b9ff7772b075835d7398ab500ccc59543cd2b392",
+                "shasum": "4d7569d613d64f4a3b4a5dfe7f639a5ab71433a5"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -807,7 +748,6 @@
                 "yoast/api-libs": "^2.0",
                 "yoast/i18n-module": "^3.0",
                 "yoast/license-manager": "1.6.0",
-                "yoast/whip": "^1.1",
                 "yoast/wp-helpscout": "^2.0"
             },
             "require-dev": {
@@ -877,7 +817,7 @@
                 "wiki": "https://github.com/Yoast/wordpress-seo/wiki",
                 "source": "https://github.com/Yoast/wordpress-seo"
             },
-            "time": "2018-08-14T09:38:05+00:00"
+            "time": "2018-08-28T11:40:45+00:00"
         },
         {
             "name": "yoast/wp-helpscout",
