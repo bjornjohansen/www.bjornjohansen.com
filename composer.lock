@@ -730,17 +730,17 @@
         },
         {
             "name": "yoast/wordpress-seo-premium",
-            "version": "8.3",
+            "version": "8.4",
             "source": {
                 "type": "git",
                 "url": "git@github.com:Yoast-dist/wordpress-seo-premium.git",
-                "reference": "2405ba77456fa24a90b30ff6aaffbf8c7cb3776a"
+                "reference": "e62a0c11c8c0e66c6a1fd007b911b3f8bb023c70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-2405ba77456fa24a90b30ff6aaffbf8c7cb3776a-zip-2dec7f.zip",
-                "reference": "2405ba77456fa24a90b30ff6aaffbf8c7cb3776a",
-                "shasum": "f48676370d0b3855b30e6d4a943b072f7e2dcbaa"
+                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-e62a0c11c8c0e66c6a1fd007b911b3f8bb023c70-zip-fe441c.zip",
+                "reference": "e62a0c11c8c0e66c6a1fd007b911b3f8bb023c70",
+                "shasum": "6447ee82d759a7aa9ee2dad7d47b734ba44df939"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -817,7 +817,7 @@
                 "wiki": "https://github.com/Yoast/wordpress-seo/wiki",
                 "source": "https://github.com/Yoast/wordpress-seo"
             },
-            "time": "2018-09-25T11:08:08+00:00"
+            "time": "2018-10-09T09:14:35+00:00"
         },
         {
             "name": "yoast/wp-helpscout",
