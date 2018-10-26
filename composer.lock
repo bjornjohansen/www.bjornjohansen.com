@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "27212b6848ffa5c33f72d78944ac23dc",
+    "content-hash": "0f5a1f59a4ae5ea8645cf188f1ae8ab3",
     "packages": [
         {
             "name": "bjornjohansen/spiderbear",
@@ -730,17 +730,17 @@
         },
         {
             "name": "yoast/wordpress-seo-premium",
-            "version": "8.4",
+            "version": "9.0.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:Yoast-dist/wordpress-seo-premium.git",
-                "reference": "e62a0c11c8c0e66c6a1fd007b911b3f8bb023c70"
+                "reference": "13b6d370c4790b4199d7d895bc947a14757c9655"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-e62a0c11c8c0e66c6a1fd007b911b3f8bb023c70-zip-fe441c.zip",
-                "reference": "e62a0c11c8c0e66c6a1fd007b911b3f8bb023c70",
-                "shasum": "6447ee82d759a7aa9ee2dad7d47b734ba44df939"
+                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-13b6d370c4790b4199d7d895bc947a14757c9655-zip-57e623.zip",
+                "reference": "13b6d370c4790b4199d7d895bc947a14757c9655",
+                "shasum": "a56bcffc47808f0a8277e04db85b021d81e74c6c"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -751,6 +751,7 @@
                 "yoast/wp-helpscout": "^2.0"
             },
             "require-dev": {
+                "phpcompatibility/phpcompatibility-wp": "1.0.0",
                 "roave/security-advisories": "dev-master",
                 "yoast/php-development-environment": "^1.0",
                 "yoast/yoastcs": "~0.4.3"
@@ -773,7 +774,7 @@
             },
             "scripts": {
                 "config-yoastcs": [
-                    "\"vendor/bin/phpcs\" --config-set installed_paths ../../../vendor/wp-coding-standards/wpcs,../../../vendor/yoast/yoastcs",
+                    "\"vendor/bin/phpcs\" --config-set installed_paths ../../../vendor/wp-coding-standards/wpcs,../../../vendor/yoast/yoastcs,../../../vendor/phpcompatibility/php-compatibility,../../../vendor/phpcompatibility/phpcompatibility-wp",
                     "\"vendor/bin/phpcs\" --config-set default_standard Yoast"
                 ],
                 "check-cs": [
@@ -817,7 +818,7 @@
                 "wiki": "https://github.com/Yoast/wordpress-seo/wiki",
                 "source": "https://github.com/Yoast/wordpress-seo"
             },
-            "time": "2018-10-09T09:14:35+00:00"
+            "time": "2018-10-25T13:15:54+00:00"
         },
         {
             "name": "yoast/wp-helpscout",
