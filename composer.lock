@@ -730,17 +730,17 @@
         },
         {
             "name": "yoast/wordpress-seo-premium",
-            "version": "9.0.2",
+            "version": "9.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:Yoast-dist/wordpress-seo-premium.git",
-                "reference": "13b6d370c4790b4199d7d895bc947a14757c9655"
+                "reference": "caa0b904dd0e873df627b8774c7517e7a03bdde1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-13b6d370c4790b4199d7d895bc947a14757c9655-zip-57e623.zip",
-                "reference": "13b6d370c4790b4199d7d895bc947a14757c9655",
-                "shasum": "a56bcffc47808f0a8277e04db85b021d81e74c6c"
+                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-caa0b904dd0e873df627b8774c7517e7a03bdde1-zip-3b92c1.zip",
+                "reference": "caa0b904dd0e873df627b8774c7517e7a03bdde1",
+                "shasum": "57e6ec11263282bad3da56aa9e13607d8e1e431a"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -751,7 +751,7 @@
                 "yoast/wp-helpscout": "^2.0"
             },
             "require-dev": {
-                "phpcompatibility/phpcompatibility-wp": "1.0.0",
+                "phpcompatibility/phpcompatibility-wp": "^2.0.0",
                 "roave/security-advisories": "dev-master",
                 "yoast/php-development-environment": "^1.0",
                 "yoast/yoastcs": "~0.4.3"
@@ -774,7 +774,7 @@
             },
             "scripts": {
                 "config-yoastcs": [
-                    "\"vendor/bin/phpcs\" --config-set installed_paths ../../../vendor/wp-coding-standards/wpcs,../../../vendor/yoast/yoastcs,../../../vendor/phpcompatibility/php-compatibility,../../../vendor/phpcompatibility/phpcompatibility-wp",
+                    "\"vendor/bin/phpcs\" --config-set installed_paths ../../../vendor/wp-coding-standards/wpcs,../../../vendor/yoast/yoastcs,../../../vendor/phpcompatibility/php-compatibility,../../../vendor/phpcompatibility/phpcompatibility-paragonie,../../../vendor/phpcompatibility/phpcompatibility-wp",
                     "\"vendor/bin/phpcs\" --config-set default_standard Yoast"
                 ],
                 "check-cs": [
@@ -818,21 +818,21 @@
                 "wiki": "https://github.com/Yoast/wordpress-seo/wiki",
                 "source": "https://github.com/Yoast/wordpress-seo"
             },
-            "time": "2018-10-25T13:15:54+00:00"
+            "time": "2018-11-07T14:50:46+00:00"
         },
         {
             "name": "yoast/wp-helpscout",
-            "version": "2.0.3",
+            "version": "2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Yoast/wp-helpscout.git",
-                "reference": "00c6d777497c935af76ba1b4962823165139bbbc"
+                "reference": "15549e900f67d62dbd0dd0b7fb72b7d064b65204"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/wp-helpscout/yoast-wp-helpscout-00c6d777497c935af76ba1b4962823165139bbbc-zip-6c3bb8.zip",
-                "reference": "00c6d777497c935af76ba1b4962823165139bbbc",
-                "shasum": "9d98740bc207322067e7c087e1fe0955fdb5a53a"
+                "url": "https://my.yoast.com/packages/dist/yoast/wp-helpscout/yoast-wp-helpscout-15549e900f67d62dbd0dd0b7fb72b7d064b65204-zip-e51b2c.zip",
+                "reference": "15549e900f67d62dbd0dd0b7fb72b7d064b65204",
+                "shasum": "d40992f85de7a359b7b30887e489869d44f89939"
             },
             "type": "library",
             "autoload": {
@@ -855,10 +855,10 @@
             ],
             "description": "A package to integrate the helpscout beacon into WordPress",
             "support": {
-                "source": "https://github.com/Yoast/wp-helpscout/tree/2.0.3",
+                "source": "https://github.com/Yoast/wp-helpscout/tree/2.0.4",
                 "issues": "https://github.com/Yoast/wp-helpscout/issues"
             },
-            "time": "2017-08-03T07:48:33+00:00"
+            "time": "2018-10-31T09:37:07+00:00"
         }
     ],
     "packages-dev": [
