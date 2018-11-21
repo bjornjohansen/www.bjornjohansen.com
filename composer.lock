@@ -160,6 +160,68 @@
             "time": "2018-08-27T06:10:37+00:00"
         },
         {
+            "name": "j4mie/idiorm",
+            "version": "v1.5.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/j4mie/idiorm.git",
+                "reference": "ee3022fcf71232309112714ca4a7760105002f99"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/j4mie/idiorm/zipball/ee3022fcf71232309112714ca4a7760105002f99",
+                "reference": "ee3022fcf71232309112714ca4a7760105002f99",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "require-dev": {
+                "ext-pdo_sqlite": "*",
+                "phpunit/phpunit": "^4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "idiorm.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause",
+                "BSD-3-Clause",
+                "BSD-4-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Simon Holywell",
+                    "email": "treffynnon@php.net",
+                    "homepage": "http://simonholywell.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Jamie Matthews",
+                    "email": "jamie.matthews@gmail.com",
+                    "homepage": "http://j4mie.org",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Durham Hale",
+                    "email": "me@durhamhale.com",
+                    "homepage": "http://durhamhale.com",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "A lightweight nearly-zero-configuration object-relational mapper and fluent query builder for PHP5",
+            "homepage": "http://j4mie.github.com/idiormandparis",
+            "keywords": [
+                "idiorm",
+                "orm",
+                "query builder"
+            ],
+            "time": "2018-05-30T23:57:49+00:00"
+        },
+        {
             "name": "johnpbloch/wordpress",
             "version": "4.9.8",
             "source": {
@@ -286,6 +348,207 @@
                 "wordpress"
             ],
             "time": "2018-01-29T14:49:29+00:00"
+        },
+        {
+            "name": "pimple/pimple",
+            "version": "v3.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silexphp/Pimple.git",
+                "reference": "9e403941ef9d65d20cba7d54e29fe906db42cf32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/9e403941ef9d65d20cba7d54e29fe906db42cf32",
+                "reference": "9e403941ef9d65d20cba7d54e29fe906db42cf32",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/container": "^1.0"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "^3.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Pimple": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Pimple, a simple Dependency Injection Container",
+            "homepage": "http://pimple.sensiolabs.org",
+            "keywords": [
+                "container",
+                "dependency injection"
+            ],
+            "time": "2018-01-21T07:42:36+00:00"
+        },
+        {
+            "name": "psr/container",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "time": "2017-02-14T16:28:37+00:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2016-10-10T12:19:37+00:00"
+        },
+        {
+            "name": "ruckusing/ruckusing-migrations",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ruckus/ruckusing-migrations.git",
+                "reference": "57d6ef2ea89d0c07a38b4697e406734ed7313025"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ruckus/ruckusing-migrations/zipball/57d6ef2ea89d0c07a38b4697e406734ed7313025",
+                "reference": "57d6ef2ea89d0c07a38b4697e406734ed7313025",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "bin": [
+                "ruckus.php"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Ruckusing": "lib/",
+                    "Task": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cody Caughlan",
+                    "email": "codycaughlan@gmail.com",
+                    "homepage": "https://github.com/ruckus/ruckusing-migrations/wiki",
+                    "role": "Project lead / Developer"
+                }
+            ],
+            "description": "Framework for generating and managing database migrations",
+            "homepage": "https://github.com/ruckus/ruckusing-migrations",
+            "keywords": [
+                "database",
+                "migrations",
+                "mysql",
+                "postgres",
+                "rake",
+                "ruckusing",
+                "task"
+            ],
+            "time": "2016-05-21T02:31:20+00:00"
         },
         {
             "name": "wpackagist-plugin/akismet",
@@ -730,20 +993,25 @@
         },
         {
             "name": "yoast/wordpress-seo-premium",
-            "version": "9.1",
+            "version": "9.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:Yoast-dist/wordpress-seo-premium.git",
-                "reference": "caa0b904dd0e873df627b8774c7517e7a03bdde1"
+                "reference": "998a9b4c252b4f5bd8208d5670a9b7cfb18f3614"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-caa0b904dd0e873df627b8774c7517e7a03bdde1-zip-3b92c1.zip",
-                "reference": "caa0b904dd0e873df627b8774c7517e7a03bdde1",
-                "shasum": "57e6ec11263282bad3da56aa9e13607d8e1e431a"
+                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-998a9b4c252b4f5bd8208d5670a9b7cfb18f3614-zip-0b79ef.zip",
+                "reference": "998a9b4c252b4f5bd8208d5670a9b7cfb18f3614",
+                "shasum": "834a71795fbe986ec80b5f784c9eec7dfba2a6dd"
             },
             "require": {
                 "composer/installers": "~1.0",
+                "j4mie/idiorm": "^1.5",
+                "php": "^5.3.2||^7.0",
+                "pimple/pimple": "^3.2",
+                "psr/log": "^1.0",
+                "ruckusing/ruckusing-migrations": "^1.1",
                 "xrstf/composer-php52": "^1.0.20",
                 "yoast/api-libs": "^2.0",
                 "yoast/i18n-module": "^3.0",
@@ -751,6 +1019,7 @@
                 "yoast/wp-helpscout": "^2.0"
             },
             "require-dev": {
+                "humbug/php-scoper": "^0.6.0",
                 "phpcompatibility/phpcompatibility-wp": "^2.0.0",
                 "roave/security-advisories": "dev-master",
                 "yoast/php-development-environment": "^1.0",
@@ -764,7 +1033,11 @@
                     "inc/",
                     "deprecated/",
                     "cli/",
-                    "premium/cli/"
+                    "premium/cli/",
+                    "cli/",
+                    "deprecated/",
+                    "vendor_prefixed/",
+                    "src/"
                 ]
             },
             "autoload-dev": {
@@ -786,8 +1059,21 @@
                 "fix-cs": [
                     "\"vendor/bin/phpcbf\""
                 ],
+                "prefix-dependencies": [
+                    "composer prefix-ruckusing",
+                    "composer prefix-idiorm",
+                    "touch ./vendor_prefixed/dependencies-prefixed.txt",
+                    "composer du"
+                ],
+                "prefix-ruckusing": [
+                    "./vendor/bin/php-scoper add-prefix --prefix=YoastSEO_Vendor --output-dir=./vendor_prefixed/ruckusing --config=config/php-scoper/ruckusing.inc.php --force --quiet"
+                ],
+                "prefix-idiorm": [
+                    "./vendor/bin/php-scoper add-prefix --prefix=YoastSEO_Vendor --output-dir=./vendor_prefixed/j4mie/idiorm --config=config/php-scoper/idiorm.inc.php --force --quiet"
+                ],
                 "post-install-cmd": [
-                    "xrstf\\Composer52\\Generator::onPostInstallCmd"
+                    "xrstf\\Composer52\\Generator::onPostInstallCmd",
+                    "Yoast\\YoastSEO\\Config\\Dependency_Management::prefix_dependencies"
                 ],
                 "post-update-cmd": [
                     "xrstf\\Composer52\\Generator::onPostInstallCmd"
@@ -818,7 +1104,7 @@
                 "wiki": "https://github.com/Yoast/wordpress-seo/wiki",
                 "source": "https://github.com/Yoast/wordpress-seo"
             },
-            "time": "2018-11-07T14:50:46+00:00"
+            "time": "2018-11-20T10:25:57+00:00"
         },
         {
             "name": "yoast/wp-helpscout",
