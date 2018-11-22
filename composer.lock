@@ -450,16 +450,16 @@
         },
         {
             "name": "psr/log",
-            "version": "1.0.2",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
-                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
+                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
                 "shasum": ""
             },
             "require": {
@@ -493,7 +493,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10T12:19:37+00:00"
+            "time": "2018-11-20T15:27:04+00:00"
         },
         {
             "name": "ruckusing/ruckusing-migrations",
@@ -993,17 +993,17 @@
         },
         {
             "name": "yoast/wordpress-seo-premium",
-            "version": "9.2",
+            "version": "9.2.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:Yoast-dist/wordpress-seo-premium.git",
-                "reference": "998a9b4c252b4f5bd8208d5670a9b7cfb18f3614"
+                "reference": "5fcc59abcaaa41bcd6f1884b598e2523f5773a74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-998a9b4c252b4f5bd8208d5670a9b7cfb18f3614-zip-0b79ef.zip",
-                "reference": "998a9b4c252b4f5bd8208d5670a9b7cfb18f3614",
-                "shasum": "834a71795fbe986ec80b5f784c9eec7dfba2a6dd"
+                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-5fcc59abcaaa41bcd6f1884b598e2523f5773a74-zip-3c913e.zip",
+                "reference": "5fcc59abcaaa41bcd6f1884b598e2523f5773a74",
+                "shasum": "2db37f994b4cc18e96449e0e4d406f48057d4ea6"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -1104,7 +1104,7 @@
                 "wiki": "https://github.com/Yoast/wordpress-seo/wiki",
                 "source": "https://github.com/Yoast/wordpress-seo"
             },
-            "time": "2018-11-20T10:25:57+00:00"
+            "time": "2018-11-21T15:16:10+00:00"
         },
         {
             "name": "yoast/wp-helpscout",
