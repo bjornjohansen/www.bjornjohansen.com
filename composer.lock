@@ -732,15 +732,15 @@
         },
         {
             "name": "wpackagist-plugin/simple-history",
-            "version": "2.29",
+            "version": "2.29.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/simple-history/",
-                "reference": "tags/2.29"
+                "reference": "tags/2.29.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/simple-history.2.29.zip",
+                "url": "https://downloads.wordpress.org/plugin/simple-history.2.29.1.zip",
                 "reference": null,
                 "shasum": null
             },
