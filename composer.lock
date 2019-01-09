@@ -993,17 +993,17 @@
         },
         {
             "name": "yoast/wordpress-seo-premium",
-            "version": "9.3",
+            "version": "9.4",
             "source": {
                 "type": "git",
                 "url": "git@github.com:Yoast-dist/wordpress-seo-premium.git",
-                "reference": "85ca37a6b68bc22f49b578d950b643b55d1d1a17"
+                "reference": "0ed8365ba3dffa479d69a43a94089b5e581a9668"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-85ca37a6b68bc22f49b578d950b643b55d1d1a17-zip-96dc80.zip",
-                "reference": "85ca37a6b68bc22f49b578d950b643b55d1d1a17",
-                "shasum": "cdd0e6bb9a9175e9e292398d04af951ebf33a18b"
+                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-0ed8365ba3dffa479d69a43a94089b5e581a9668-zip-d75cb1.zip",
+                "reference": "0ed8365ba3dffa479d69a43a94089b5e581a9668",
+                "shasum": "d25c508dc028a79ee8d22170990eda85a0f2a83d"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -1033,9 +1033,7 @@
                     "inc/",
                     "deprecated/",
                     "cli/",
-                    "premium/cli/",
-                    "cli/",
-                    "deprecated/",
+                    "premium",
                     "vendor_prefixed/",
                     "src/"
                 ]
@@ -1104,7 +1102,7 @@
                 "wiki": "https://github.com/Yoast/wordpress-seo/wiki",
                 "source": "https://github.com/Yoast/wordpress-seo"
             },
-            "time": "2018-12-18T11:16:42+00:00"
+            "time": "2019-01-08T10:21:32+00:00"
         },
         {
             "name": "yoast/wp-helpscout",
