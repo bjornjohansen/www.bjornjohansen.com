@@ -27,7 +27,8 @@
         "wpackagist-plugin/wp-cron-control": "*",
         "wpackagist-plugin/wp-crontrol": "*",
         "wpackagist-plugin/gutenberg": "*",
-        "yoast/wordpress-seo-premium": "^9.0"
+        "yoast/wordpress-seo-premium": "*",
+        "10up/elasticpress": "^2"
     },
     "extra": {
         "wordpress-install-dir": "wp",
