@@ -692,15 +692,15 @@
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
-            "version": "4.6.1",
+            "version": "4.6.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
-                "reference": "tags/4.6.1"
+                "reference": "tags/4.6.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.4.6.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.4.6.2.zip",
                 "reference": null,
                 "shasum": null
             },
