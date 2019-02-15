@@ -22,6 +22,6 @@ module.exports = {
 		}
 	},
 	export: {
-		compress: true
+		compress: false
 	}
 };
