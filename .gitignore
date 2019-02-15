@@ -1,6 +1,7 @@
 content/plugins
 vendor
-content/themes
+content/themes/*
+!content/themes/ursus-arctos
 wp
 .idea
 content/ewww
