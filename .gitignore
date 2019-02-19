@@ -2,6 +2,7 @@ content/plugins
 vendor
 content/themes/*
 !content/themes/ursus-arctos
+!content/themes/astra
 wp
 .idea
 content/ewww
