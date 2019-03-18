@@ -1141,15 +1141,15 @@
         },
         {
             "name": "wpackagist-plugin/simple-comment-editing",
-            "version": "2.3.7",
+            "version": "2.3.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/simple-comment-editing/",
-                "reference": "tags/2.3.7"
+                "reference": "tags/2.3.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/simple-comment-editing.2.3.7.zip"
+                "url": "https://downloads.wordpress.org/plugin/simple-comment-editing.2.3.8.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
