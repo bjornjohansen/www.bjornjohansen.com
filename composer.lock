@@ -1410,17 +1410,17 @@
         },
         {
             "name": "yoast/wordpress-seo-premium",
-            "version": "10.0",
+            "version": "10.0.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:Yoast-dist/wordpress-seo-premium.git",
-                "reference": "5ba17b4b1b7fd9e03889fed7b8e53691a7eea111"
+                "reference": "b75e6663c769c624e376fa862a733103607374a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-5ba17b4b1b7fd9e03889fed7b8e53691a7eea111-zip-437d98.zip",
-                "reference": "5ba17b4b1b7fd9e03889fed7b8e53691a7eea111",
-                "shasum": "c11baccca50e549a4b055943ab4d79bfbd76740f"
+                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-b75e6663c769c624e376fa862a733103607374a2-zip-0f987c.zip",
+                "reference": "b75e6663c769c624e376fa862a733103607374a2",
+                "shasum": "4bdeb070e99fd0729144a5baadcb39cb252873f2"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -1531,7 +1531,7 @@
                 "wiki": "https://github.com/Yoast/wordpress-seo/wiki",
                 "source": "https://github.com/Yoast/wordpress-seo"
             },
-            "time": "2019-03-12T10:35:02+00:00"
+            "time": "2019-03-19T09:14:09+00:00"
         },
         {
             "name": "yoast/wp-helpscout",
