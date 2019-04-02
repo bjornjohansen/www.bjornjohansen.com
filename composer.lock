@@ -1410,17 +1410,17 @@
         },
         {
             "name": "yoast/wordpress-seo-premium",
-            "version": "10.0.1",
+            "version": "10.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:Yoast-dist/wordpress-seo-premium.git",
-                "reference": "b75e6663c769c624e376fa862a733103607374a2"
+                "reference": "e67b0c650aa29f6f42e68369207918af3d6671d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-b75e6663c769c624e376fa862a733103607374a2-zip-0f987c.zip",
-                "reference": "b75e6663c769c624e376fa862a733103607374a2",
-                "shasum": "4bdeb070e99fd0729144a5baadcb39cb252873f2"
+                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-e67b0c650aa29f6f42e68369207918af3d6671d5-zip-1b9d22.zip",
+                "reference": "e67b0c650aa29f6f42e68369207918af3d6671d5",
+                "shasum": "c60f5817493a4bd7500311f75a9a2676d0937ff4"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -1452,7 +1452,6 @@
                     "deprecated/",
                     "cli/",
                     "premium",
-                    "vendor_prefixed/",
                     "src/"
                 ]
             },
@@ -1496,7 +1495,8 @@
                 ],
                 "prefix-oauth2-client": [
                     "@php ./vendor/humbug/php-scoper/bin/php-scoper add-prefix --prefix=YoastSEO_Vendor --output-dir=./vendor_prefixed/league/oauth2-client --config=config/php-scoper/oauth2-client.inc.php --force --quiet",
-                    "@php ./vendor/humbug/php-scoper/bin/php-scoper add-prefix --prefix=YoastSEO_Vendor --output-dir=./vendor_prefixed/guzzlehttp --config=config/php-scoper/guzzlehttp.inc.php --force --quiet"
+                    "@php ./vendor/humbug/php-scoper/bin/php-scoper add-prefix --prefix=YoastSEO_Vendor --output-dir=./vendor_prefixed/guzzlehttp --config=config/php-scoper/guzzlehttp.inc.php --force --quiet",
+                    "@php ./vendor/humbug/php-scoper/bin/php-scoper add-prefix --prefix=YoastSEO_Vendor --output-dir=./vendor_prefixed/psr --config=config/php-scoper/psr.inc.php --force --quiet"
                 ],
                 "post-install-cmd": [
                     "xrstf\\Composer52\\Generator::onPostInstallCmd",
@@ -1531,7 +1531,7 @@
                 "wiki": "https://github.com/Yoast/wordpress-seo/wiki",
                 "source": "https://github.com/Yoast/wordpress-seo"
             },
-            "time": "2019-03-19T09:14:09+00:00"
+            "time": "2019-04-02T09:50:54+00:00"
         },
         {
             "name": "yoast/wp-helpscout",
