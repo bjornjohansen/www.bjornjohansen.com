@@ -1410,17 +1410,17 @@
         },
         {
             "name": "yoast/wordpress-seo-premium",
-            "version": "11.0",
+            "version": "11.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:Yoast-dist/wordpress-seo-premium.git",
-                "reference": "a3c81567592e1532f6b9cb215ecfe1eb3159500c"
+                "reference": "e297f33741d8e6acc9078403d97a7b7498bf686b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-a3c81567592e1532f6b9cb215ecfe1eb3159500c-zip-78dd3d.zip",
-                "reference": "a3c81567592e1532f6b9cb215ecfe1eb3159500c",
-                "shasum": "cd2db82c910d61e8071f8a3f01979f9596cf4e76"
+                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-e297f33741d8e6acc9078403d97a7b7498bf686b-zip-8e5981.zip",
+                "reference": "e297f33741d8e6acc9078403d97a7b7498bf686b",
+                "shasum": "951b8b9040da95c771a2eddeb5f18a6cef83af46"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -1439,7 +1439,6 @@
             "require-dev": {
                 "humbug/php-scoper": "^0.6.0",
                 "phpcompatibility/phpcompatibility-wp": "^2.0.0",
-                "roave/security-advisories": "dev-master",
                 "yoast/php-development-environment": "^1.0",
                 "yoast/yoastcs": "~0.4.3"
             },
@@ -1469,16 +1468,29 @@
                     "@php ./vendor/squizlabs/php_codesniffer/scripts/phpcs"
                 ],
                 "premium-check-cs": [
-                    "composer require yoast/yoastcs:~1.2.1 --update-with-dependencies --no-suggest --no-interaction",
+                    "@before-premium-cs",
                     "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs --ignore=*/premium/cli/ --runtime-set ignore_warnings_on_exit 1",
                     "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs ./premium/cli/ --runtime-set testVersion 5.3- --runtime-set ignore_warnings_on_exit 1",
-                    "composer require yoast/yoastcs:~0.4.3 --update-with-dependencies --no-suggest --no-interaction"
+                    "@after-premium-cs"
                 ],
                 "check-cs-errors": [
                     "@php ./vendor/squizlabs/php_codesniffer/scripts/phpcs --error-severity=1 --warning-severity=6"
                 ],
                 "fix-cs": [
                     "@php ./vendor/squizlabs/php_codesniffer/scripts/phpcbf"
+                ],
+                "premium-fix-cs": [
+                    "@before-premium-cs",
+                    "@php ./vendor/squizlabs/php_codesniffer/bin/phpcbf || true",
+                    "@after-premium-cs"
+                ],
+                "before-premium-cs": [
+                    "composer require --dev yoast/yoastcs:~1.2.1 --update-with-dependencies --no-suggest --no-interaction"
+                ],
+                "after-premium-cs": [
+                    "composer require --dev yoast/yoastcs:~0.4.3 --update-with-dependencies --no-suggest --no-interaction",
+                    "@php ./scripts/maybe-restore-composer-lock.php",
+                    "composer config-yoastcs"
                 ],
                 "prefix-dependencies": [
                     "composer prefix-ruckusing",
@@ -1531,21 +1543,21 @@
                 "wiki": "https://github.com/Yoast/wordpress-seo/wiki",
                 "source": "https://github.com/Yoast/wordpress-seo"
             },
-            "time": "2019-04-16T09:19:02+00:00"
+            "time": "2019-04-30T10:45:44+00:00"
         },
         {
             "name": "yoast/wp-helpscout",
-            "version": "2.0.4",
+            "version": "2.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Yoast/wp-helpscout.git",
-                "reference": "15549e900f67d62dbd0dd0b7fb72b7d064b65204"
+                "reference": "0d82c3d4077f94495a0d1f6b5c51d171c1434b51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/wp-helpscout/yoast-wp-helpscout-15549e900f67d62dbd0dd0b7fb72b7d064b65204-zip-e51b2c.zip",
-                "reference": "15549e900f67d62dbd0dd0b7fb72b7d064b65204",
-                "shasum": "d40992f85de7a359b7b30887e489869d44f89939"
+                "url": "https://my.yoast.com/packages/dist/yoast/wp-helpscout/yoast-wp-helpscout-0d82c3d4077f94495a0d1f6b5c51d171c1434b51-zip-2466e3.zip",
+                "reference": "0d82c3d4077f94495a0d1f6b5c51d171c1434b51",
+                "shasum": "dea6387bebc18ef4a55fb2744fb789893395d182"
             },
             "type": "library",
             "autoload": {
@@ -1568,10 +1580,10 @@
             ],
             "description": "A package to integrate the helpscout beacon into WordPress",
             "support": {
-                "source": "https://github.com/Yoast/wp-helpscout/tree/2.0.4",
+                "source": "https://github.com/Yoast/wp-helpscout/tree/2.0.5",
                 "issues": "https://github.com/Yoast/wp-helpscout/issues"
             },
-            "time": "2018-10-31T09:37:07+00:00"
+            "time": "2019-04-18T09:45:54+00:00"
         }
     ],
     "packages-dev": [
