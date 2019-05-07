@@ -1321,17 +1321,24 @@
         },
         {
             "name": "yoast/i18n-module",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Yoast/i18n-module.git",
-                "reference": "76b1645aaf8cf9a07dc06ec0bbe2a6838feeed4c"
+                "reference": "50c69961805a8d79699eed745a65e9e4a76538eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/i18n-module/yoast-i18n-module-76b1645aaf8cf9a07dc06ec0bbe2a6838feeed4c-zip-49ef3c.zip",
-                "reference": "76b1645aaf8cf9a07dc06ec0bbe2a6838feeed4c",
-                "shasum": "107bba6f652e7770c288e44374b81b50d5306fdf"
+                "url": "https://my.yoast.com/packages/dist/yoast/i18n-module/yoast-i18n-module-50c69961805a8d79699eed745a65e9e4a76538eb-zip-718dfb.zip",
+                "reference": "50c69961805a8d79699eed745a65e9e4a76538eb",
+                "shasum": "52627cc59a666e24893d1af858f3cb89a2a42d87"
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "require-dev": {
+                "roave/security-advisories": "dev-master",
+                "yoast/yoastcs": "^1.2.2"
             },
             "type": "library",
             "autoload": {
@@ -1339,8 +1346,20 @@
                     "src/"
                 ]
             },
+            "scripts": {
+                "config-yoastcs": [
+                    "Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\Plugin::run",
+                    "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs --config-set default_standard Yoast"
+                ],
+                "check-cs": [
+                    "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs"
+                ],
+                "fix-cs": [
+                    "@php ./vendor/squizlabs/php_codesniffer/bin/phpcbf"
+                ]
+            },
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -1356,9 +1375,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Yoast/i18n-module/issues",
-                "source": "https://github.com/Yoast/i18n-module/tree/3.0.0"
+                "source": "https://github.com/Yoast/i18n-module"
             },
-            "time": "2017-09-06T07:17:52+00:00"
+            "time": "2019-05-06T08:29:33+00:00"
         },
         {
             "name": "yoast/license-manager",
@@ -1410,17 +1429,17 @@
         },
         {
             "name": "yoast/wordpress-seo-premium",
-            "version": "11.1",
+            "version": "11.1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:Yoast-dist/wordpress-seo-premium.git",
-                "reference": "e297f33741d8e6acc9078403d97a7b7498bf686b"
+                "reference": "2b4954e198da5d39bfe653be9cc5309b2b4b8994"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-e297f33741d8e6acc9078403d97a7b7498bf686b-zip-8e5981.zip",
-                "reference": "e297f33741d8e6acc9078403d97a7b7498bf686b",
-                "shasum": "951b8b9040da95c771a2eddeb5f18a6cef83af46"
+                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-2b4954e198da5d39bfe653be9cc5309b2b4b8994-zip-aeb160.zip",
+                "reference": "2b4954e198da5d39bfe653be9cc5309b2b4b8994",
+                "shasum": "7c08acbc90e5d4d7ffa12ac8a942e025376370cc"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -1543,7 +1562,7 @@
                 "wiki": "https://github.com/Yoast/wordpress-seo/wiki",
                 "source": "https://github.com/Yoast/wordpress-seo"
             },
-            "time": "2019-04-30T10:45:44+00:00"
+            "time": "2019-05-06T10:40:46+00:00"
         },
         {
             "name": "yoast/wp-helpscout",
