@@ -1321,17 +1321,17 @@
         },
         {
             "name": "yoast/i18n-module",
-            "version": "3.1.0",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Yoast/i18n-module.git",
-                "reference": "50c69961805a8d79699eed745a65e9e4a76538eb"
+                "reference": "9d0a2f6daea6fb42376b023e7778294d19edd85d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/i18n-module/yoast-i18n-module-50c69961805a8d79699eed745a65e9e4a76538eb-zip-718dfb.zip",
-                "reference": "50c69961805a8d79699eed745a65e9e4a76538eb",
-                "shasum": "52627cc59a666e24893d1af858f3cb89a2a42d87"
+                "url": "https://my.yoast.com/packages/dist/yoast/i18n-module/yoast-i18n-module-9d0a2f6daea6fb42376b023e7778294d19edd85d-zip-9a858c.zip",
+                "reference": "9d0a2f6daea6fb42376b023e7778294d19edd85d",
+                "shasum": "9ae15e64b6e565e5fd5169b849d20d8cbd67f842"
             },
             "require": {
                 "php": ">=5.2"
@@ -1377,7 +1377,7 @@
                 "issues": "https://github.com/Yoast/i18n-module/issues",
                 "source": "https://github.com/Yoast/i18n-module"
             },
-            "time": "2019-05-06T08:29:33+00:00"
+            "time": "2019-05-07T06:45:05+00:00"
         },
         {
             "name": "yoast/license-manager",
@@ -1429,17 +1429,17 @@
         },
         {
             "name": "yoast/wordpress-seo-premium",
-            "version": "11.1.1",
+            "version": "11.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:Yoast-dist/wordpress-seo-premium.git",
-                "reference": "2b4954e198da5d39bfe653be9cc5309b2b4b8994"
+                "reference": "1c31fd4b04f7a2c4c38ae410b50ee1af87d01cfc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-2b4954e198da5d39bfe653be9cc5309b2b4b8994-zip-aeb160.zip",
-                "reference": "2b4954e198da5d39bfe653be9cc5309b2b4b8994",
-                "shasum": "7c08acbc90e5d4d7ffa12ac8a942e025376370cc"
+                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-1c31fd4b04f7a2c4c38ae410b50ee1af87d01cfc-zip-a335c4.zip",
+                "reference": "1c31fd4b04f7a2c4c38ae410b50ee1af87d01cfc",
+                "shasum": "a8cedba5e4b09fe6652170441846ca53e8b718c1"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -1562,7 +1562,7 @@
                 "wiki": "https://github.com/Yoast/wordpress-seo/wiki",
                 "source": "https://github.com/Yoast/wordpress-seo"
             },
-            "time": "2019-05-06T10:40:46+00:00"
+            "time": "2019-05-15T09:36:46+00:00"
         },
         {
             "name": "yoast/wp-helpscout",
