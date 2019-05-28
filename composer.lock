@@ -1005,9 +1005,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/akismet.4.1.2.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/akismet.4.1.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1025,9 +1023,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/disable-emojis.1.7.2.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/disable-emojis.1.7.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1045,9 +1041,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/duo-wordpress.2.5.4.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/duo-wordpress.2.5.4.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1065,9 +1059,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.2.5.15.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/elementor.2.5.15.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1085,9 +1077,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/epoch.1.0.14.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/epoch.1.0.14.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1105,9 +1095,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.4.7.4.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.4.7.4.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1125,9 +1113,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.5.7.0.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.5.7.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1145,9 +1131,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/oembed-gist.4.9.1.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/oembed-gist.4.9.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1165,9 +1149,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/show-parent-comment.0.2.1.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/show-parent-comment.0.2.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1185,9 +1167,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/simple-comment-editing.2.3.8.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/simple-comment-editing.2.3.8.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1205,9 +1185,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/simple-history.2.31.1.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/simple-history.2.31.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1225,9 +1203,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/tuxedo-big-file-uploads.1.2.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/tuxedo-big-file-uploads.1.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1245,9 +1221,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/user-switching.1.5.0.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/user-switching.1.5.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1265,9 +1239,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-cron-control.0.7.1.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/wp-cron-control.0.7.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1285,9 +1257,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-crontrol.1.7.1.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/wp-crontrol.1.7.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1305,9 +1275,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/hello-elementor.2.0.5.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/theme/hello-elementor.2.0.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1497,17 +1465,17 @@
         },
         {
             "name": "yoast/wordpress-seo-premium",
-            "version": "11.2.1",
+            "version": "11.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:Yoast-dist/wordpress-seo-premium.git",
-                "reference": "583939d8a2837863532a712a388197d04d9c222b"
+                "reference": "2a5e16553248f7952f16244e5f49c9f590a4790f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-583939d8a2837863532a712a388197d04d9c222b-zip-aa1d23.zip",
-                "reference": "583939d8a2837863532a712a388197d04d9c222b",
-                "shasum": "2d91dd92979c3b13ec7b2d485c118945bca37b2d"
+                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-2a5e16553248f7952f16244e5f49c9f590a4790f-zip-69e57c.zip",
+                "reference": "2a5e16553248f7952f16244e5f49c9f590a4790f",
+                "shasum": "158e51f4f1e6c8fa4935a11ea7a4f4e524fcd9b6"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -1519,13 +1487,15 @@
                 "ruckusing/ruckusing-migrations": "^1.1",
                 "xrstf/composer-php52": "^1.0.20",
                 "yoast/api-libs": "^2.0",
-                "yoast/i18n-module": "^3.0",
+                "yoast/i18n-module": "^3.1.1",
                 "yoast/license-manager": "1.6.0",
                 "yoast/wp-helpscout": "^2.0"
             },
             "require-dev": {
+                "brain/monkey": "^2.2",
                 "humbug/php-scoper": "^0.6.0",
                 "phpcompatibility/phpcompatibility-wp": "^2.0.0",
+                "phpunit/phpunit": "^5.7",
                 "yoast/php-development-environment": "^1.0",
                 "yoast/yoastcs": "~0.4.3"
             },
@@ -1543,10 +1513,17 @@
             },
             "autoload-dev": {
                 "classmap": [
-                    "tests/"
+                    "tests/",
+                    "integration-tests/"
                 ]
             },
             "scripts": {
+                "test": [
+                    "phpunit -c phpunit.xml.dist"
+                ],
+                "integration-test": [
+                    "phpunit -c phpunit-integration.xml.dist"
+                ],
                 "config-yoastcs": [
                     "@php ./vendor/squizlabs/php_codesniffer/scripts/phpcs --config-set installed_paths ../../../vendor/wp-coding-standards/wpcs,../../../vendor/yoast/yoastcs,../../../vendor/phpcompatibility/php-compatibility,../../../vendor/phpcompatibility/phpcompatibility-paragonie,../../../vendor/phpcompatibility/phpcompatibility-wp",
                     "@php ./vendor/squizlabs/php_codesniffer/scripts/phpcs --config-set default_standard Yoast"
@@ -1556,7 +1533,7 @@
                 ],
                 "premium-check-cs": [
                     "@before-premium-cs",
-                    "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs --ignore=*/premium/cli/ --runtime-set ignore_warnings_on_exit 1",
+                    "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs --ignore=*/premium/cli/,tests/ --runtime-set ignore_warnings_on_exit 1",
                     "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs ./premium/cli/ --runtime-set testVersion 5.3- --runtime-set ignore_warnings_on_exit 1",
                     "@after-premium-cs"
                 ],
@@ -1630,7 +1607,7 @@
                 "wiki": "https://github.com/Yoast/wordpress-seo/wiki",
                 "source": "https://github.com/Yoast/wordpress-seo"
             },
-            "time": "2019-05-16T11:46:11+00:00"
+            "time": "2019-05-28T08:39:39+00:00"
         },
         {
             "name": "yoast/wp-helpscout",
