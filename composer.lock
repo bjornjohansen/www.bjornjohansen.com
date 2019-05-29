@@ -4,29 +4,27 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f43009e55c448ae86f61df7efd75becb",
+    "content-hash": "a570bebdebe71d7878b84f49500456a5",
     "packages": [
         {
             "name": "10up/elasticpress",
-            "version": "2.8.2",
+            "version": "3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/10up/ElasticPress.git",
-                "reference": "b56e8f8dc2f07cd6c591edc5db94eb49236bc549"
+                "reference": "8acc592f3cbeec05b8ce704bb0e2e8ef70d063ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/10up/ElasticPress/zipball/b56e8f8dc2f07cd6c591edc5db94eb49236bc549",
-                "reference": "b56e8f8dc2f07cd6c591edc5db94eb49236bc549",
+                "url": "https://api.github.com/repos/10up/ElasticPress/zipball/8acc592f3cbeec05b8ce704bb0e2e8ef70d063ca",
+                "reference": "8acc592f3cbeec05b8ce704bb0e2e8ef70d063ca",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.2"
+                "php": ">=5.4"
             },
             "require-dev": {
-                "phpunit/phpunit": "*@stable",
-                "wp-cli/wp-cli": "*@stable",
-                "wpackagist-plugin/woocommerce": "dev-trunk"
+                "10up/phpcs-composer": "dev-master"
             },
             "type": "wordpress-plugin",
             "extra": {
@@ -64,7 +62,7 @@
                 "search",
                 "wordpress"
             ],
-            "time": "2019-03-26T21:14:10+00:00"
+            "time": "2019-05-23T15:10:28+00:00"
         },
         {
             "name": "bjornjohansen/spiderbear",
