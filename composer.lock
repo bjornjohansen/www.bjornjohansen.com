@@ -1267,15 +1267,15 @@
         },
         {
             "name": "wpackagist-theme/hello-elementor",
-            "version": "2.0.6",
+            "version": "2.0.7",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/hello-elementor/",
-                "reference": "2.0.6"
+                "reference": "2.0.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/hello-elementor.2.0.6.zip"
+                "url": "https://downloads.wordpress.org/theme/hello-elementor.2.0.7.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
