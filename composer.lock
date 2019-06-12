@@ -1465,17 +1465,17 @@
         },
         {
             "name": "yoast/wordpress-seo-premium",
-            "version": "11.3",
+            "version": "11.4",
             "source": {
                 "type": "git",
                 "url": "git@github.com:Yoast-dist/wordpress-seo-premium.git",
-                "reference": "2a5e16553248f7952f16244e5f49c9f590a4790f"
+                "reference": "296f942681cbd723a02002790eabcaebb2da5cbd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-2a5e16553248f7952f16244e5f49c9f590a4790f-zip-69e57c.zip",
-                "reference": "2a5e16553248f7952f16244e5f49c9f590a4790f",
-                "shasum": "158e51f4f1e6c8fa4935a11ea7a4f4e524fcd9b6"
+                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-296f942681cbd723a02002790eabcaebb2da5cbd-zip-8604db.zip",
+                "reference": "296f942681cbd723a02002790eabcaebb2da5cbd",
+                "shasum": "80a36a3046bbd170c0563dc2258f59efddddae70"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -1533,8 +1533,9 @@
                 ],
                 "premium-check-cs": [
                     "@before-premium-cs",
-                    "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs --ignore=*/premium/cli/,tests/ --runtime-set ignore_warnings_on_exit 1",
+                    "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs --ignore=*/premium/cli/,*/tests/load/wp-seo-premium.php --runtime-set ignore_warnings_on_exit 1",
                     "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs ./premium/cli/ --runtime-set testVersion 5.3- --runtime-set ignore_warnings_on_exit 1",
+                    "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs ./tests/load/wp-seo-premium.php --runtime-set testVersion 5.6- --runtime-set ignore_warnings_on_exit 1",
                     "@after-premium-cs"
                 ],
                 "check-cs-errors": [
@@ -1607,7 +1608,7 @@
                 "wiki": "https://github.com/Yoast/wordpress-seo/wiki",
                 "source": "https://github.com/Yoast/wordpress-seo"
             },
-            "time": "2019-05-28T08:39:39+00:00"
+            "time": "2019-06-12T10:21:31+00:00"
         },
         {
             "name": "yoast/wp-helpscout",
