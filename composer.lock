@@ -1105,15 +1105,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "6.0.0",
+            "version": "6.1.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/6.0.0"
+                "reference": "tags/6.1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.6.0.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.6.1.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
