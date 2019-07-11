@@ -1055,15 +1055,15 @@
         },
         {
             "name": "wpackagist-plugin/elementor",
-            "version": "2.6.0",
+            "version": "2.6.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elementor/",
-                "reference": "tags/2.6.0"
+                "reference": "tags/2.6.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.2.6.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/elementor.2.6.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
