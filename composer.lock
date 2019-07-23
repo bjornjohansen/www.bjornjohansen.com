@@ -1469,17 +1469,17 @@
         },
         {
             "name": "yoast/wordpress-seo-premium",
-            "version": "11.6",
+            "version": "11.7",
             "source": {
                 "type": "git",
                 "url": "git@github.com:Yoast-dist/wordpress-seo-premium.git",
-                "reference": "fedb29fdf8056d9f23f26d9a92ceb3dd7d2cc2e9"
+                "reference": "3a6ba870d4ac390c3ed3b110745f7851b2d16472"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-fedb29fdf8056d9f23f26d9a92ceb3dd7d2cc2e9-zip-9a0f92.zip",
-                "reference": "fedb29fdf8056d9f23f26d9a92ceb3dd7d2cc2e9",
-                "shasum": "0c38c35ee2a74699e6c02d6a7ad6884558846798"
+                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-3a6ba870d4ac390c3ed3b110745f7851b2d16472-zip-21e84b.zip",
+                "reference": "3a6ba870d4ac390c3ed3b110745f7851b2d16472",
+                "shasum": "81dd86816f01a1b61d6ef3acf20d01f7a6f1113f"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -1612,7 +1612,7 @@
                 "wiki": "https://github.com/Yoast/wordpress-seo/wiki",
                 "source": "https://github.com/Yoast/wordpress-seo"
             },
-            "time": "2019-07-09T10:00:38+00:00"
+            "time": "2019-07-23T08:26:50+00:00"
         },
         {
             "name": "yoast/wp-helpscout",
@@ -1804,13 +1804,13 @@
                 },
                 {
                     "name": "Wim Godden",
-                    "homepage": "https://github.com/wimg",
-                    "role": "lead"
+                    "role": "lead",
+                    "homepage": "https://github.com/wimg"
                 },
                 {
                     "name": "Juliette Reinders Folmer",
-                    "homepage": "https://github.com/jrfnl",
-                    "role": "lead"
+                    "role": "lead",
+                    "homepage": "https://github.com/jrfnl"
                 }
             ],
             "description": "A set of sniffs for PHP_CodeSniffer that checks for PHP cross-version compatibility.",
