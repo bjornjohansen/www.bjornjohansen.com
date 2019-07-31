@@ -442,21 +442,21 @@
             "authors": [
                 {
                     "name": "Simon Holywell",
+                    "role": "Maintainer",
                     "email": "treffynnon@php.net",
-                    "homepage": "http://simonholywell.com",
-                    "role": "Maintainer"
+                    "homepage": "http://simonholywell.com"
                 },
                 {
                     "name": "Jamie Matthews",
+                    "role": "Developer",
                     "email": "jamie.matthews@gmail.com",
-                    "homepage": "http://j4mie.org",
-                    "role": "Developer"
+                    "homepage": "http://j4mie.org"
                 },
                 {
                     "name": "Durham Hale",
+                    "role": "Maintainer",
                     "email": "me@durhamhale.com",
-                    "homepage": "http://durhamhale.com",
-                    "role": "Maintainer"
+                    "homepage": "http://durhamhale.com"
                 }
             ],
             "description": "A lightweight nearly-zero-configuration object-relational mapper and fluent query builder for PHP5",
@@ -981,9 +981,9 @@
             "authors": [
                 {
                     "name": "Cody Caughlan",
+                    "role": "Project lead / Developer",
                     "email": "codycaughlan@gmail.com",
-                    "homepage": "https://github.com/ruckus/ruckusing-migrations/wiki",
-                    "role": "Project lead / Developer"
+                    "homepage": "https://github.com/ruckus/ruckusing-migrations/wiki"
                 }
             ],
             "description": "Framework for generating and managing database migrations",
@@ -1055,15 +1055,15 @@
         },
         {
             "name": "wpackagist-plugin/elementor",
-            "version": "2.6.6",
+            "version": "2.6.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elementor/",
-                "reference": "tags/2.6.6"
+                "reference": "tags/2.6.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.2.6.6.zip"
+                "url": "https://downloads.wordpress.org/plugin/elementor.2.6.7.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
