@@ -640,14 +640,14 @@
             "authors": [
                 {
                     "name": "Alex Bilbie",
+                    "role": "Developer",
                     "email": "hello@alexbilbie.com",
-                    "homepage": "http://www.alexbilbie.com",
-                    "role": "Developer"
+                    "homepage": "http://www.alexbilbie.com"
                 },
                 {
                     "name": "Woody Gilk",
-                    "homepage": "https://github.com/shadowhand",
-                    "role": "Contributor"
+                    "role": "Contributor",
+                    "homepage": "https://github.com/shadowhand"
                 }
             ],
             "description": "OAuth 2.0 Client Library",
@@ -998,6 +998,77 @@
                 "task"
             ],
             "time": "2016-05-21T02:31:20+00:00"
+        },
+        {
+            "name": "symfony/dependency-injection",
+            "version": "v3.4.30",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/dependency-injection.git",
+                "reference": "ade939fe83d5ec5fcaa98628dc42d83232c8eb41"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/ade939fe83d5ec5fcaa98628dc42d83232c8eb41",
+                "reference": "ade939fe83d5ec5fcaa98628dc42d83232c8eb41",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.5.9|>=7.0.8",
+                "psr/container": "^1.0"
+            },
+            "conflict": {
+                "symfony/config": "<3.3.7",
+                "symfony/finder": "<3.3",
+                "symfony/proxy-manager-bridge": "<3.4",
+                "symfony/yaml": "<3.4"
+            },
+            "provide": {
+                "psr/container-implementation": "1.0"
+            },
+            "require-dev": {
+                "symfony/config": "~3.3|~4.0",
+                "symfony/expression-language": "~2.8|~3.0|~4.0",
+                "symfony/yaml": "~3.4|~4.0"
+            },
+            "suggest": {
+                "symfony/config": "",
+                "symfony/expression-language": "For using expressions in service container configuration",
+                "symfony/finder": "For using double-star glob patterns or when GLOB_BRACE portability is required",
+                "symfony/proxy-manager-bridge": "Generate service proxies to lazy load them",
+                "symfony/yaml": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\DependencyInjection\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony DependencyInjection Component",
+            "homepage": "https://symfony.com",
+            "time": "2019-07-19T11:52:08+00:00"
         },
         {
             "name": "wpackagist-plugin/akismet",
@@ -1469,17 +1540,17 @@
         },
         {
             "name": "yoast/wordpress-seo-premium",
-            "version": "11.7",
+            "version": "11.8",
             "source": {
                 "type": "git",
                 "url": "git@github.com:Yoast-dist/wordpress-seo-premium.git",
-                "reference": "3a6ba870d4ac390c3ed3b110745f7851b2d16472"
+                "reference": "f3edb5c1d8240e3e56c392bf1ca093a86fc55d48"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-3a6ba870d4ac390c3ed3b110745f7851b2d16472-zip-21e84b.zip",
-                "reference": "3a6ba870d4ac390c3ed3b110745f7851b2d16472",
-                "shasum": "81dd86816f01a1b61d6ef3acf20d01f7a6f1113f"
+                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-f3edb5c1d8240e3e56c392bf1ca093a86fc55d48-zip-74a9e9.zip",
+                "reference": "f3edb5c1d8240e3e56c392bf1ca093a86fc55d48",
+                "shasum": "93831ae17a50f14e43ca53ee390ba31159e1ed1c"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -1489,6 +1560,7 @@
                 "pimple/pimple": "^3.2",
                 "psr/log": "^1.0",
                 "ruckusing/ruckusing-migrations": "^1.1",
+                "symfony/dependency-injection": "^3.4",
                 "xrstf/composer-php52": "^1.0.20",
                 "yoast/api-libs": "^2.0",
                 "yoast/i18n-module": "^3.1.1",
@@ -1500,6 +1572,8 @@
                 "humbug/php-scoper": "^0.6.0",
                 "phpcompatibility/phpcompatibility-wp": "^2.0.0",
                 "phpunit/phpunit": "^5.7",
+                "symfony/config": "^3.4",
+                "symfony/filesystem": "^3.4",
                 "yoast/php-development-environment": "^1.0",
                 "yoast/yoastcs": "~0.4.3"
             },
@@ -1518,7 +1592,8 @@
             "autoload-dev": {
                 "classmap": [
                     "tests/",
-                    "integration-tests/"
+                    "integration-tests/",
+                    "config/"
                 ]
             },
             "scripts": {
@@ -1565,6 +1640,7 @@
                     "composer prefix-ruckusing",
                     "composer prefix-idiorm",
                     "composer prefix-oauth2-client",
+                    "composer prefix-symfony",
                     "touch ./vendor_prefixed/dependencies-prefixed.txt",
                     "composer du"
                 ],
@@ -1579,9 +1655,18 @@
                     "@php ./vendor/humbug/php-scoper/bin/php-scoper add-prefix --prefix=YoastSEO_Vendor --output-dir=./vendor_prefixed/guzzlehttp --config=config/php-scoper/guzzlehttp.inc.php --force --quiet",
                     "@php ./vendor/humbug/php-scoper/bin/php-scoper add-prefix --prefix=YoastSEO_Vendor --output-dir=./vendor_prefixed/psr --config=config/php-scoper/psr.inc.php --force --quiet"
                 ],
+                "prefix-symfony": [
+                    "@php ./vendor/humbug/php-scoper/bin/php-scoper add-prefix --prefix=YoastSEO_Vendor --output-dir=./vendor_prefixed/symfony/dependency-injection --config=config/php-scoper/dependency-injection.inc.php --force --quiet"
+                ],
+                "compile-di": [
+                    "rm -f ./src/generated/container.php",
+                    "rm -f ./src/generated/container.php.meta",
+                    "composer du",
+                    "Yoast\\WP\\Free\\Composer\\Actions::compile_dependency_injection_container"
+                ],
                 "post-install-cmd": [
                     "xrstf\\Composer52\\Generator::onPostInstallCmd",
-                    "Yoast\\WP\\Free\\Config\\Dependency_Management::prefix_dependencies"
+                    "Yoast\\WP\\Free\\Composer\\Actions::prefix_dependencies"
                 ],
                 "post-update-cmd": [
                     "xrstf\\Composer52\\Generator::onPostInstallCmd"
@@ -1612,7 +1697,7 @@
                 "wiki": "https://github.com/Yoast/wordpress-seo/wiki",
                 "source": "https://github.com/Yoast/wordpress-seo"
             },
-            "time": "2019-07-23T08:26:50+00:00"
+            "time": "2019-08-06T07:29:17+00:00"
         },
         {
             "name": "yoast/wp-helpscout",
@@ -1738,9 +1823,9 @@
             "authors": [
                 {
                     "name": "Franck Nijhof",
+                    "role": "Developer / IT Manager",
                     "email": "franck.nijhof@dealerdirect.com",
-                    "homepage": "http://www.frenck.nl",
-                    "role": "Developer / IT Manager"
+                    "homepage": "http://www.frenck.nl"
                 }
             ],
             "description": "PHP_CodeSniffer Standards Composer Installer Plugin",
