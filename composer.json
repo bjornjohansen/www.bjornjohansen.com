@@ -11,7 +11,7 @@
     },
     "require": {
         "composer/installers": "*",
-        "johnpbloch/wordpress": "*",
+        "roots/wordpress": "*",
         "bjornjohansen/spiderbear": "*",
         "wpackagist-plugin/disable-emojis": "*",
         "wpackagist-plugin/akismet": "*",
