@@ -500,21 +500,21 @@
             "authors": [
                 {
                     "name": "Simon Holywell",
+                    "role": "Maintainer",
                     "email": "treffynnon@php.net",
-                    "homepage": "http://simonholywell.com",
-                    "role": "Maintainer"
+                    "homepage": "http://simonholywell.com"
                 },
                 {
                     "name": "Jamie Matthews",
+                    "role": "Developer",
                     "email": "jamie.matthews@gmail.com",
-                    "homepage": "http://j4mie.org",
-                    "role": "Developer"
+                    "homepage": "http://j4mie.org"
                 },
                 {
                     "name": "Durham Hale",
+                    "role": "Maintainer",
                     "email": "me@durhamhale.com",
-                    "homepage": "http://durhamhale.com",
-                    "role": "Maintainer"
+                    "homepage": "http://durhamhale.com"
                 }
             ],
             "description": "A lightweight nearly-zero-configuration object-relational mapper and fluent query builder for PHP5",
@@ -1585,9 +1585,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.2.2",
-                "reference": "5.2.2",
-                "shasum": null
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.2.2"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -1706,9 +1704,9 @@
             "authors": [
                 {
                     "name": "Cody Caughlan",
+                    "role": "Project lead / Developer",
                     "email": "codycaughlan@gmail.com",
-                    "homepage": "https://github.com/ruckus/ruckusing-migrations/wiki",
-                    "role": "Project lead / Developer"
+                    "homepage": "https://github.com/ruckus/ruckusing-migrations/wiki"
                 }
             ],
             "description": "Framework for generating and managing database migrations",
@@ -2520,9 +2518,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/akismet.4.1.2.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/akismet.4.1.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2540,9 +2536,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/disable-emojis.1.7.2.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/disable-emojis.1.7.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2560,9 +2554,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/duo-wordpress.2.5.4.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/duo-wordpress.2.5.4.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2580,9 +2572,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.2.6.8.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/elementor.2.6.8.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2600,9 +2590,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/epoch.1.0.14.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/epoch.1.0.14.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2620,9 +2608,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.4.9.1.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.4.9.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2640,9 +2626,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.6.3.0.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.6.3.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2660,9 +2644,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/oembed-gist.4.9.1.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/oembed-gist.4.9.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2680,9 +2662,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/show-parent-comment.0.2.1.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/show-parent-comment.0.2.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2700,9 +2680,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/simple-comment-editing.2.3.8.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/simple-comment-editing.2.3.8.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2712,17 +2690,15 @@
         },
         {
             "name": "wpackagist-plugin/simple-history",
-            "version": "2.31.1",
+            "version": "2.32",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/simple-history/",
-                "reference": "tags/2.31.1"
+                "reference": "tags/2.32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/simple-history.2.31.1.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/simple-history.2.32.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2740,9 +2716,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/tuxedo-big-file-uploads.1.2.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/tuxedo-big-file-uploads.1.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2760,9 +2734,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/user-switching.1.5.2.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/user-switching.1.5.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2780,9 +2752,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-cron-control.0.7.1.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/wp-cron-control.0.7.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2800,9 +2770,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-crontrol.1.7.1.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/wp-crontrol.1.7.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2820,9 +2788,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/hello-elementor.2.2.0.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/theme/hello-elementor.2.2.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -3295,9 +3261,9 @@
             "authors": [
                 {
                     "name": "Franck Nijhof",
+                    "role": "Developer / IT Manager",
                     "email": "franck.nijhof@dealerdirect.com",
-                    "homepage": "http://www.frenck.nl",
-                    "role": "Developer / IT Manager"
+                    "homepage": "http://www.frenck.nl"
                 }
             ],
             "description": "PHP_CodeSniffer Standards Composer Installer Plugin",
