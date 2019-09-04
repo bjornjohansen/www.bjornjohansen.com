@@ -967,16 +967,16 @@
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v3.4.30",
+            "version": "v3.4.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "ade939fe83d5ec5fcaa98628dc42d83232c8eb41"
+                "reference": "2709bc2978ceb90f5180181f777f8a09125f2d89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/ade939fe83d5ec5fcaa98628dc42d83232c8eb41",
-                "reference": "ade939fe83d5ec5fcaa98628dc42d83232c8eb41",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/2709bc2978ceb90f5180181f777f8a09125f2d89",
+                "reference": "2709bc2978ceb90f5180181f777f8a09125f2d89",
                 "shasum": ""
             },
             "require": {
@@ -1034,7 +1034,7 @@
             ],
             "description": "Symfony DependencyInjection Component",
             "homepage": "https://symfony.com",
-            "time": "2019-07-19T11:52:08+00:00"
+            "time": "2019-08-26T16:07:57+00:00"
         },
         {
             "name": "wpackagist-plugin/akismet",
@@ -1506,17 +1506,17 @@
         },
         {
             "name": "yoast/wordpress-seo-premium",
-            "version": "11.9",
+            "version": "12.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:Yoast-dist/wordpress-seo-premium.git",
-                "reference": "12c738d0ab533c1ebbd16c9a4f2e7bca5ce13e6f"
+                "reference": "e567dcc4889f127f1ad4bd4b6a719d3527c92840"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-12c738d0ab533c1ebbd16c9a4f2e7bca5ce13e6f-zip-ca3b28.zip",
-                "reference": "12c738d0ab533c1ebbd16c9a4f2e7bca5ce13e6f",
-                "shasum": "d4ace7a7c4259b3df054154cfc2784abe8d50ec9"
+                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-e567dcc4889f127f1ad4bd4b6a719d3527c92840-zip-922408.zip",
+                "reference": "e567dcc4889f127f1ad4bd4b6a719d3527c92840",
+                "shasum": "2773a3664dce396bcd89042798a5194742dc7a3b"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -1663,7 +1663,7 @@
                 "wiki": "https://github.com/Yoast/wordpress-seo/wiki",
                 "source": "https://github.com/Yoast/wordpress-seo"
             },
-            "time": "2019-08-20T07:59:00+00:00"
+            "time": "2019-09-03T09:03:28+00:00"
         },
         {
             "name": "yoast/wp-helpscout",
@@ -1855,13 +1855,13 @@
                 },
                 {
                     "name": "Wim Godden",
-                    "role": "lead",
-                    "homepage": "https://github.com/wimg"
+                    "homepage": "https://github.com/wimg",
+                    "role": "lead"
                 },
                 {
                     "name": "Juliette Reinders Folmer",
-                    "role": "lead",
-                    "homepage": "https://github.com/jrfnl"
+                    "homepage": "https://github.com/jrfnl",
+                    "role": "lead"
                 }
             ],
             "description": "A set of sniffs for PHP_CodeSniffer that checks for PHP cross-version compatibility.",
