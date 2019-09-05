@@ -514,14 +514,14 @@
             "authors": [
                 {
                     "name": "Alex Bilbie",
-                    "role": "Developer",
                     "email": "hello@alexbilbie.com",
-                    "homepage": "http://www.alexbilbie.com"
+                    "homepage": "http://www.alexbilbie.com",
+                    "role": "Developer"
                 },
                 {
                     "name": "Woody Gilk",
-                    "role": "Contributor",
-                    "homepage": "https://github.com/shadowhand"
+                    "homepage": "https://github.com/shadowhand",
+                    "role": "Contributor"
                 }
             ],
             "description": "OAuth 2.0 Client Library",
@@ -1506,17 +1506,17 @@
         },
         {
             "name": "yoast/wordpress-seo-premium",
-            "version": "12.0",
+            "version": "12.0.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:Yoast-dist/wordpress-seo-premium.git",
-                "reference": "e567dcc4889f127f1ad4bd4b6a719d3527c92840"
+                "reference": "535c90a4060b3e7a505132440d0cd3b82cc79949"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-e567dcc4889f127f1ad4bd4b6a719d3527c92840-zip-922408.zip",
-                "reference": "e567dcc4889f127f1ad4bd4b6a719d3527c92840",
-                "shasum": "2773a3664dce396bcd89042798a5194742dc7a3b"
+                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-535c90a4060b3e7a505132440d0cd3b82cc79949-zip-1fbefc.zip",
+                "reference": "535c90a4060b3e7a505132440d0cd3b82cc79949",
+                "shasum": "87e05528ce293b1704be4361e1853cbaedc2abbf"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -1663,7 +1663,7 @@
                 "wiki": "https://github.com/Yoast/wordpress-seo/wiki",
                 "source": "https://github.com/Yoast/wordpress-seo"
             },
-            "time": "2019-09-03T09:03:28+00:00"
+            "time": "2019-09-04T13:27:07+00:00"
         },
         {
             "name": "yoast/wp-helpscout",
