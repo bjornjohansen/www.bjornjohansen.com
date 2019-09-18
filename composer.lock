@@ -1506,17 +1506,17 @@
         },
         {
             "name": "yoast/wordpress-seo-premium",
-            "version": "12.0.1",
+            "version": "12.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:Yoast-dist/wordpress-seo-premium.git",
-                "reference": "535c90a4060b3e7a505132440d0cd3b82cc79949"
+                "reference": "7bbef17b0481eaf80a8462d33c6f806a8ede5722"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-535c90a4060b3e7a505132440d0cd3b82cc79949-zip-1fbefc.zip",
-                "reference": "535c90a4060b3e7a505132440d0cd3b82cc79949",
-                "shasum": "87e05528ce293b1704be4361e1853cbaedc2abbf"
+                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-7bbef17b0481eaf80a8462d33c6f806a8ede5722-zip-e9e435.zip",
+                "reference": "7bbef17b0481eaf80a8462d33c6f806a8ede5722",
+                "shasum": "5f026cb560959b6c099b0670d81bde93f7ce0260"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -1534,12 +1534,11 @@
                 "yoast/wp-helpscout": "^2.0"
             },
             "require-dev": {
+                "atanamo/php-codeshift": "^1.0",
                 "brain/monkey": "^2.2",
-                "humbug/php-scoper": "^0.6.0",
+                "humbug/php-scoper": "^0.12.0",
                 "phpcompatibility/phpcompatibility-wp": "^2.0.0",
                 "phpunit/phpunit": "^5.7",
-                "symfony/config": "^3.4",
-                "symfony/filesystem": "^3.4",
                 "yoast/php-development-environment": "^1.0",
                 "yoast/yoastcs": "~0.4.3"
             },
@@ -1624,6 +1623,10 @@
                 "prefix-symfony": [
                     "@php ./vendor/humbug/php-scoper/bin/php-scoper add-prefix --prefix=YoastSEO_Vendor --output-dir=./vendor_prefixed/symfony/dependency-injection --config=config/php-scoper/dependency-injection.inc.php --force --quiet"
                 ],
+                "remove-vendor-prefixed-uses": [
+                    "@php ./vendor/atanamo/php-codeshift/bin/codeshift --mod=config/php-codeshift/remove-vendor-prefixing-codemod.php --src=artifact-composer/src",
+                    "@php ./vendor/atanamo/php-codeshift/bin/codeshift --mod=config/php-codeshift/remove-vendor-prefixing-codemod.php --src=artifact-composer/migrations"
+                ],
                 "compile-di": [
                     "rm -f ./src/generated/container.php",
                     "rm -f ./src/generated/container.php.meta",
@@ -1663,7 +1666,7 @@
                 "wiki": "https://github.com/Yoast/wordpress-seo/wiki",
                 "source": "https://github.com/Yoast/wordpress-seo"
             },
-            "time": "2019-09-04T13:27:07+00:00"
+            "time": "2019-09-17T09:31:52+00:00"
         },
         {
             "name": "yoast/wp-helpscout",
