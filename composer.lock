@@ -444,21 +444,21 @@
             "authors": [
                 {
                     "name": "Simon Holywell",
-                    "role": "Maintainer",
                     "email": "treffynnon@php.net",
-                    "homepage": "http://simonholywell.com"
+                    "homepage": "http://simonholywell.com",
+                    "role": "Maintainer"
                 },
                 {
                     "name": "Jamie Matthews",
-                    "role": "Developer",
                     "email": "jamie.matthews@gmail.com",
-                    "homepage": "http://j4mie.org"
+                    "homepage": "http://j4mie.org",
+                    "role": "Developer"
                 },
                 {
                     "name": "Durham Hale",
-                    "role": "Maintainer",
                     "email": "me@durhamhale.com",
-                    "homepage": "http://durhamhale.com"
+                    "homepage": "http://durhamhale.com",
+                    "role": "Maintainer"
                 }
             ],
             "description": "A lightweight nearly-zero-configuration object-relational mapper and fluent query builder for PHP5",
@@ -947,9 +947,9 @@
             "authors": [
                 {
                     "name": "Cody Caughlan",
-                    "role": "Project lead / Developer",
                     "email": "codycaughlan@gmail.com",
-                    "homepage": "https://github.com/ruckus/ruckusing-migrations/wiki"
+                    "homepage": "https://github.com/ruckus/ruckusing-migrations/wiki",
+                    "role": "Project lead / Developer"
                 }
             ],
             "description": "Framework for generating and managing database migrations",
@@ -1506,17 +1506,17 @@
         },
         {
             "name": "yoast/wordpress-seo-premium",
-            "version": "12.1",
+            "version": "12.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:Yoast-dist/wordpress-seo-premium.git",
-                "reference": "7bbef17b0481eaf80a8462d33c6f806a8ede5722"
+                "reference": "fc7e0835834e7f74213dd779d044768177fbf9bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-7bbef17b0481eaf80a8462d33c6f806a8ede5722-zip-e9e435.zip",
-                "reference": "7bbef17b0481eaf80a8462d33c6f806a8ede5722",
-                "shasum": "5f026cb560959b6c099b0670d81bde93f7ce0260"
+                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-fc7e0835834e7f74213dd779d044768177fbf9bf-zip-b65510.zip",
+                "reference": "fc7e0835834e7f74213dd779d044768177fbf9bf",
+                "shasum": "f0f5f6aec02c4e3cc2cde0cb3bd5b01bf43394d8"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -1666,7 +1666,7 @@
                 "wiki": "https://github.com/Yoast/wordpress-seo/wiki",
                 "source": "https://github.com/Yoast/wordpress-seo"
             },
-            "time": "2019-09-17T09:31:52+00:00"
+            "time": "2019-10-01T08:03:00+00:00"
         },
         {
             "name": "yoast/wp-helpscout",
