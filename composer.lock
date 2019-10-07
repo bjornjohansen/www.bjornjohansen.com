@@ -1092,15 +1092,15 @@
         },
         {
             "name": "wpackagist-plugin/elementor",
-            "version": "2.7.3",
+            "version": "2.7.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elementor/",
-                "reference": "tags/2.7.3"
+                "reference": "tags/2.7.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.2.7.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/elementor.2.7.4.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
