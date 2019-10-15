@@ -967,16 +967,16 @@
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v3.4.31",
+            "version": "v3.4.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "2709bc2978ceb90f5180181f777f8a09125f2d89"
+                "reference": "9cf81798f857205c5bbb4c8c7895f838d40b0c4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/2709bc2978ceb90f5180181f777f8a09125f2d89",
-                "reference": "2709bc2978ceb90f5180181f777f8a09125f2d89",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/9cf81798f857205c5bbb4c8c7895f838d40b0c4b",
+                "reference": "9cf81798f857205c5bbb4c8c7895f838d40b0c4b",
                 "shasum": ""
             },
             "require": {
@@ -1034,7 +1034,7 @@
             ],
             "description": "Symfony DependencyInjection Component",
             "homepage": "https://symfony.com",
-            "time": "2019-08-26T16:07:57+00:00"
+            "time": "2019-09-27T15:47:48+00:00"
         },
         {
             "name": "wpackagist-plugin/akismet",
@@ -1506,17 +1506,17 @@
         },
         {
             "name": "yoast/wordpress-seo-premium",
-            "version": "12.2",
+            "version": "12.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:Yoast-dist/wordpress-seo-premium.git",
-                "reference": "fc7e0835834e7f74213dd779d044768177fbf9bf"
+                "reference": "719429a8f058dd9b3ace78dacd98fad3c065f6bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-fc7e0835834e7f74213dd779d044768177fbf9bf-zip-b65510.zip",
-                "reference": "fc7e0835834e7f74213dd779d044768177fbf9bf",
-                "shasum": "f0f5f6aec02c4e3cc2cde0cb3bd5b01bf43394d8"
+                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-719429a8f058dd9b3ace78dacd98fad3c065f6bf-zip-6b1dc5.zip",
+                "reference": "719429a8f058dd9b3ace78dacd98fad3c065f6bf",
+                "shasum": "84c00ba65ac3e70611456a6d87c314def214dee7"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -1666,7 +1666,7 @@
                 "wiki": "https://github.com/Yoast/wordpress-seo/wiki",
                 "source": "https://github.com/Yoast/wordpress-seo"
             },
-            "time": "2019-10-01T08:03:00+00:00"
+            "time": "2019-10-15T10:10:42+00:00"
         },
         {
             "name": "yoast/wp-helpscout",
