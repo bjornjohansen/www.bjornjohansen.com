@@ -514,14 +514,14 @@
             "authors": [
                 {
                     "name": "Alex Bilbie",
-                    "role": "Developer",
                     "email": "hello@alexbilbie.com",
-                    "homepage": "http://www.alexbilbie.com"
+                    "homepage": "http://www.alexbilbie.com",
+                    "role": "Developer"
                 },
                 {
                     "name": "Woody Gilk",
-                    "role": "Contributor",
-                    "homepage": "https://github.com/shadowhand"
+                    "homepage": "https://github.com/shadowhand",
+                    "role": "Contributor"
                 }
             ],
             "description": "OAuth 2.0 Client Library",
@@ -828,9 +828,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.2.4",
-                "reference": "5.2.4",
-                "shasum": null
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.2.4"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -1048,9 +1046,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/akismet.4.1.2.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/akismet.4.1.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1068,9 +1064,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/disable-emojis.1.7.2.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/disable-emojis.1.7.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1088,9 +1082,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/duo-wordpress.2.5.4.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/duo-wordpress.2.5.4.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1108,9 +1100,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.2.7.4.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/elementor.2.7.4.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1128,9 +1118,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/epoch.1.0.14.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/epoch.1.0.14.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1148,9 +1136,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.5.0.0.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.5.0.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1160,17 +1146,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "6.6.0",
+            "version": "6.7.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/6.6.0"
+                "reference": "tags/6.7.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.6.6.0.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.6.7.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1188,9 +1172,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/oembed-gist.4.9.1.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/oembed-gist.4.9.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1208,9 +1190,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/show-parent-comment.0.2.1.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/show-parent-comment.0.2.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1228,9 +1208,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/simple-comment-editing.2.3.8.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/simple-comment-editing.2.3.8.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1248,9 +1226,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/simple-history.2.32.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/simple-history.2.32.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1268,9 +1244,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/tuxedo-big-file-uploads.1.2.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/tuxedo-big-file-uploads.1.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1288,9 +1262,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/user-switching.1.5.2.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/user-switching.1.5.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1308,9 +1280,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-cron-control.0.7.1.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/wp-cron-control.0.7.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1328,9 +1298,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-crontrol.1.7.1.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/wp-crontrol.1.7.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1348,9 +1316,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/hello-elementor.2.2.1.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/theme/hello-elementor.2.2.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
