@@ -1255,15 +1255,15 @@
         },
         {
             "name": "wpackagist-plugin/user-switching",
-            "version": "1.5.2",
+            "version": "1.5.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/user-switching/",
-                "reference": "tags/1.5.2"
+                "reference": "tags/1.5.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/user-switching.1.5.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/user-switching.1.5.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
