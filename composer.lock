@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "10up/elasticpress",
-            "version": "3.2.1",
+            "version": "3.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/10up/ElasticPress.git",
-                "reference": "21acc0680f6ce75971d113d329a5189777394250"
+                "reference": "525159a00d52b589970535fd7317f9f1d33e7c72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/10up/ElasticPress/zipball/21acc0680f6ce75971d113d329a5189777394250",
-                "reference": "21acc0680f6ce75971d113d329a5189777394250",
+                "url": "https://api.github.com/repos/10up/ElasticPress/zipball/525159a00d52b589970535fd7317f9f1d33e7c72",
+                "reference": "525159a00d52b589970535fd7317f9f1d33e7c72",
                 "shasum": ""
             },
             "require": {
@@ -25,6 +25,7 @@
             },
             "require-dev": {
                 "10up/phpcs-composer": "dev-master",
+                "10up/wpacceptance": "dev-master",
                 "phpunit/phpunit": "^7",
                 "wpackagist-plugin/woocommerce": "*"
             },
@@ -64,7 +65,7 @@
                 "search",
                 "wordpress"
             ],
-            "time": "2019-10-15T03:43:48+00:00"
+            "time": "2019-11-07T03:15:44+00:00"
         },
         {
             "name": "bjornjohansen/spiderbear",
