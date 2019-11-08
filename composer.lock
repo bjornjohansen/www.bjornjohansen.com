@@ -1220,15 +1220,15 @@
         },
         {
             "name": "wpackagist-plugin/simple-history",
-            "version": "2.32",
+            "version": "2.33",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/simple-history/",
-                "reference": "tags/2.32"
+                "reference": "tags/2.33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/simple-history.2.32.zip"
+                "url": "https://downloads.wordpress.org/plugin/simple-history.2.33.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
