@@ -735,16 +735,16 @@
         },
         {
             "name": "psr/log",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "bf73deb2b3b896a9d9c75f3f0d88185d2faa27e2"
+                "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/bf73deb2b3b896a9d9c75f3f0d88185d2faa27e2",
-                "reference": "bf73deb2b3b896a9d9c75f3f0d88185d2faa27e2",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/446d54b4cb6bf489fc9d75f55843658e6f25d801",
+                "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801",
                 "shasum": ""
             },
             "require": {
@@ -778,7 +778,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2019-10-25T08:06:51+00:00"
+            "time": "2019-11-01T11:05:21+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -969,16 +969,16 @@
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v3.4.32",
+            "version": "v3.4.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "9cf81798f857205c5bbb4c8c7895f838d40b0c4b"
+                "reference": "0ea4d39ca82409a25a43b61ce828048a90000920"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/9cf81798f857205c5bbb4c8c7895f838d40b0c4b",
-                "reference": "9cf81798f857205c5bbb4c8c7895f838d40b0c4b",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/0ea4d39ca82409a25a43b61ce828048a90000920",
+                "reference": "0ea4d39ca82409a25a43b61ce828048a90000920",
                 "shasum": ""
             },
             "require": {
@@ -1036,7 +1036,7 @@
             ],
             "description": "Symfony DependencyInjection Component",
             "homepage": "https://symfony.com",
-            "time": "2019-09-27T15:47:48+00:00"
+            "time": "2019-11-08T16:18:30+00:00"
         },
         {
             "name": "wpackagist-plugin/akismet",
@@ -1358,47 +1358,6 @@
             "time": "2016-04-16T21:52:24+00:00"
         },
         {
-            "name": "yoast/api-libs",
-            "version": "2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Yoast/api-libs.git",
-                "reference": "e7361081a1d6ae79c0b96c8363379435ea736ef8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/api-libs/yoast-api-libs-e7361081a1d6ae79c0b96c8363379435ea736ef8-zip-1dbe2c.zip",
-                "reference": "e7361081a1d6ae79c0b96c8363379435ea736ef8",
-                "shasum": "911f17e613379e14c0550c6665a522e66e3f844c"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "class-api-libs.php"
-                ]
-            },
-            "license": [
-                "GPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Team Yoast",
-                    "email": "support@yoast.com",
-                    "homepage": "https://yoast.com"
-                }
-            ],
-            "description": "Shared API libraries for Yoast projects.",
-            "homepage": "https://github.com/Yoast/api-libs",
-            "keywords": [
-                "wordpress"
-            ],
-            "support": {
-                "issues": "https://github.com/Yoast/api-libs/issues",
-                "source": "https://github.com/Yoast/api-libs/tree/2.0"
-            },
-            "time": "2015-07-14T10:25:59+00:00"
-        },
-        {
             "name": "yoast/i18n-module",
             "version": "3.1.1",
             "source": {
@@ -1508,17 +1467,17 @@
         },
         {
             "name": "yoast/wordpress-seo-premium",
-            "version": "12.4",
+            "version": "12.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:Yoast-dist/wordpress-seo-premium.git",
-                "reference": "4ec810a85a51932ce9e2ee1915bd6b597d252218"
+                "reference": "9e9da620bcca5a07f3ddd77b571e45cc23b2a91b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-4ec810a85a51932ce9e2ee1915bd6b597d252218-zip-687dac.zip",
-                "reference": "4ec810a85a51932ce9e2ee1915bd6b597d252218",
-                "shasum": "d36b714356299c8e2792cce89a31cebce5ae58a2"
+                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-9e9da620bcca5a07f3ddd77b571e45cc23b2a91b-zip-be1130.zip",
+                "reference": "9e9da620bcca5a07f3ddd77b571e45cc23b2a91b",
+                "shasum": "be8575591b6d721f633d86c5f0af7e610e0b5a22"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -1530,7 +1489,6 @@
                 "ruckusing/ruckusing-migrations": "^1.1",
                 "symfony/dependency-injection": "^3.4",
                 "xrstf/composer-php52": "^1.0.20",
-                "yoast/api-libs": "^2.0",
                 "yoast/i18n-module": "^3.1.1",
                 "yoast/license-manager": "1.6.0",
                 "yoast/wp-helpscout": "^2.0"
@@ -1675,7 +1633,7 @@
                 "wiki": "https://github.com/Yoast/wordpress-seo/wiki",
                 "source": "https://github.com/Yoast/wordpress-seo"
             },
-            "time": "2019-10-29T08:49:11+00:00"
+            "time": "2019-11-13T08:54:05+00:00"
         },
         {
             "name": "yoast/wp-helpscout",
