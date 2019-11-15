@@ -29,7 +29,8 @@
         "10up/elasticpress": "^3",
         "wpackagist-theme/hello-elementor": "*",
         "wpackagist-plugin/elementor": "*",
-        "wpackagist-plugin/instant-page": "*"
+        "wpackagist-plugin/instant-page": "*",
+        "wpackagist-theme/twentytwenty": "^1.0"
     },
     "extra": {
         "wordpress-install-dir": "wp",
