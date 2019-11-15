@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fe9465ad483a6cb8e3191f5351d6d667",
+    "content-hash": "5937dc24cff676150815badcc15ff393",
     "packages": [
         {
             "name": "10up/elasticpress",
@@ -1119,26 +1119,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/elementor/"
-        },
-        {
-            "name": "wpackagist-plugin/epoch",
-            "version": "1.0.14",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/epoch/",
-                "reference": "tags/1.0.14"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/epoch.1.0.14.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/epoch/"
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
