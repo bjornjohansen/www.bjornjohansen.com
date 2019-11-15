@@ -23,7 +23,6 @@
         "wpackagist-plugin/simple-comment-editing": "*",
         "wpackagist-plugin/simple-history": "*",
         "wpackagist-plugin/tuxedo-big-file-uploads": "*",
-        "wpackagist-plugin/user-switching": "*",
         "wpackagist-plugin/wp-cron-control": "*",
         "wpackagist-plugin/wp-crontrol": "*",
         "wpackagist-plugin/gutenberg": "*",
