@@ -30,7 +30,8 @@
         "yoast/wordpress-seo-premium": "*",
         "10up/elasticpress": "^3",
         "wpackagist-theme/hello-elementor": "*",
-        "wpackagist-plugin/elementor": "*"
+        "wpackagist-plugin/elementor": "*",
+        "wpackagist-plugin/instant-page": "*"
     },
     "extra": {
         "wordpress-install-dir": "wp",
