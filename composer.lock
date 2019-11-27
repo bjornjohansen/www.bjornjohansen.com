@@ -1467,17 +1467,17 @@
         },
         {
             "name": "yoast/wordpress-seo-premium",
-            "version": "12.5.1",
+            "version": "12.6",
             "source": {
                 "type": "git",
                 "url": "git@github.com:Yoast-dist/wordpress-seo-premium.git",
-                "reference": "156e69024e7bcbd5f2a3825e82cefb84f08785a0"
+                "reference": "758dbce77af635ee9eeecac0dd4bba8ac858974e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-156e69024e7bcbd5f2a3825e82cefb84f08785a0-zip-9ae64e.zip",
-                "reference": "156e69024e7bcbd5f2a3825e82cefb84f08785a0",
-                "shasum": "e6527a53b23d61f7247bdeb6e08e990cd01ca444"
+                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-758dbce77af635ee9eeecac0dd4bba8ac858974e-zip-9a6179.zip",
+                "reference": "758dbce77af635ee9eeecac0dd4bba8ac858974e",
+                "shasum": "5f24c97bbd0d132b546974ce5ca5e5601d7540e5"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -1490,8 +1490,7 @@
                 "symfony/dependency-injection": "^3.4",
                 "xrstf/composer-php52": "^1.0.20",
                 "yoast/i18n-module": "^3.1.1",
-                "yoast/license-manager": "1.6.0",
-                "yoast/wp-helpscout": "^2.0"
+                "yoast/license-manager": "1.6.0"
             },
             "require-dev": {
                 "atanamo/php-codeshift": "^1.0",
@@ -1633,47 +1632,7 @@
                 "wiki": "https://github.com/Yoast/wordpress-seo/wiki",
                 "source": "https://github.com/Yoast/wordpress-seo"
             },
-            "time": "2019-11-21T13:43:27+00:00"
-        },
-        {
-            "name": "yoast/wp-helpscout",
-            "version": "2.0.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Yoast/wp-helpscout.git",
-                "reference": "0d82c3d4077f94495a0d1f6b5c51d171c1434b51"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/wp-helpscout/yoast-wp-helpscout-0d82c3d4077f94495a0d1f6b5c51d171c1434b51-zip-2466e3.zip",
-                "reference": "0d82c3d4077f94495a0d1f6b5c51d171c1434b51",
-                "shasum": "dea6387bebc18ef4a55fb2744fb789893395d182"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ],
-                "files": [
-                    "src/functions.php"
-                ]
-            },
-            "license": [
-                "GPL-3.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Team Yoast",
-                    "email": "support@yoast.com",
-                    "homepage": "https://yoast.com"
-                }
-            ],
-            "description": "A package to integrate the helpscout beacon into WordPress",
-            "support": {
-                "source": "https://github.com/Yoast/wp-helpscout/tree/2.0.5",
-                "issues": "https://github.com/Yoast/wp-helpscout/issues"
-            },
-            "time": "2019-04-18T09:45:54+00:00"
+            "time": "2019-11-26T11:30:52+00:00"
         }
     ],
     "packages-dev": [
