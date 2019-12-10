@@ -224,16 +224,16 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "6.4.1",
+            "version": "6.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "0895c932405407fd3a7368b6910c09a24d26db11"
+                "reference": "dbc2bc3a293ed6b1ae08a3651e2bfd213d19b6a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/0895c932405407fd3a7368b6910c09a24d26db11",
-                "reference": "0895c932405407fd3a7368b6910c09a24d26db11",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/dbc2bc3a293ed6b1ae08a3651e2bfd213d19b6a5",
+                "reference": "dbc2bc3a293ed6b1ae08a3651e2bfd213d19b6a5",
                 "shasum": ""
             },
             "require": {
@@ -248,12 +248,13 @@
                 "psr/log": "^1.1"
             },
             "suggest": {
+                "ext-intl": "Required for Internationalized Domain Name (IDN) support",
                 "psr/log": "Required for using the Log middleware"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "6.3-dev"
+                    "dev-master": "6.5-dev"
                 }
             },
             "autoload": {
@@ -286,7 +287,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2019-10-23T15:58:00+00:00"
+            "time": "2019-12-07T18:20:45+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -969,16 +970,16 @@
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v3.4.35",
+            "version": "v3.4.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "0ea4d39ca82409a25a43b61ce828048a90000920"
+                "reference": "0d201916bfb3af939fec3c0c8815ea16c60ac1a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/0ea4d39ca82409a25a43b61ce828048a90000920",
-                "reference": "0ea4d39ca82409a25a43b61ce828048a90000920",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/0d201916bfb3af939fec3c0c8815ea16c60ac1a2",
+                "reference": "0d201916bfb3af939fec3c0c8815ea16c60ac1a2",
                 "shasum": ""
             },
             "require": {
@@ -1036,7 +1037,7 @@
             ],
             "description": "Symfony DependencyInjection Component",
             "homepage": "https://symfony.com",
-            "time": "2019-11-08T16:18:30+00:00"
+            "time": "2019-12-01T08:33:36+00:00"
         },
         {
             "name": "wpackagist-plugin/akismet",
@@ -1467,23 +1468,23 @@
         },
         {
             "name": "yoast/wordpress-seo-premium",
-            "version": "12.6.1",
+            "version": "12.7",
             "source": {
                 "type": "git",
                 "url": "git@github.com:Yoast-dist/wordpress-seo-premium.git",
-                "reference": "afcddfa13111cc1261dfb367bccbf0ddc314bf5e"
+                "reference": "ccfd3d1602bd7c866a68d0721df8654d3b2aba5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-afcddfa13111cc1261dfb367bccbf0ddc314bf5e-zip-7b85dd.zip",
-                "reference": "afcddfa13111cc1261dfb367bccbf0ddc314bf5e",
-                "shasum": "07090b9e5c28391a06656cc2edcc879c0f6aaae8"
+                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-ccfd3d1602bd7c866a68d0721df8654d3b2aba5c-zip-3fcc4f.zip",
+                "reference": "ccfd3d1602bd7c866a68d0721df8654d3b2aba5c",
+                "shasum": "6e74af9302330c895621c786fdece20e7c47916b"
             },
             "require": {
                 "composer/installers": "~1.0",
                 "j4mie/idiorm": "^1.5",
                 "league/oauth2-client": "^2.4",
-                "php": "^5.6.0||^7.0",
+                "php": "^5.6.20||^7.0",
                 "pimple/pimple": "^3.2",
                 "psr/log": "^1.0",
                 "ruckusing/ruckusing-migrations": "^1.1",
@@ -1523,10 +1524,10 @@
             },
             "scripts": {
                 "test": [
-                    "phpunit -c phpunit.xml.dist"
+                    "@php ./vendor/phpunit/phpunit/phpunit"
                 ],
                 "integration-test": [
-                    "phpunit -c phpunit-integration.xml.dist"
+                    "@php ./vendor/phpunit/phpunit/phpunit -c phpunit-integration.xml.dist"
                 ],
                 "config-yoastcs": [
                     "@php ./vendor/squizlabs/php_codesniffer/scripts/phpcs --config-set installed_paths ../../../vendor/wp-coding-standards/wpcs,../../../vendor/yoast/yoastcs,../../../vendor/phpcompatibility/php-compatibility,../../../vendor/phpcompatibility/phpcompatibility-paragonie,../../../vendor/phpcompatibility/phpcompatibility-wp",
@@ -1543,7 +1544,7 @@
                     "@after-premium-cs"
                 ],
                 "check-cs-errors": [
-                    "@php ./vendor/squizlabs/php_codesniffer/scripts/phpcs --error-severity=1 --warning-severity=6"
+                    "@check-cs -n"
                 ],
                 "check-staged-cs": [
                     "Yoast\\WP\\Free\\Composer\\Actions::check_staged_cs"
@@ -1600,14 +1601,7 @@
                     "Yoast\\WP\\Free\\Composer\\Actions::compile_dependency_injection_container"
                 ],
                 "post-install-cmd": [
-                    "xrstf\\Composer52\\Generator::onPostInstallCmd",
                     "Yoast\\WP\\Free\\Composer\\Actions::prefix_dependencies"
-                ],
-                "post-update-cmd": [
-                    "xrstf\\Composer52\\Generator::onPostInstallCmd"
-                ],
-                "post-autoload-dump": [
-                    "xrstf\\Composer52\\Generator::onPostInstallCmd"
                 ]
             },
             "license": [
@@ -1632,7 +1626,7 @@
                 "wiki": "https://github.com/Yoast/wordpress-seo/wiki",
                 "source": "https://github.com/Yoast/wordpress-seo"
             },
-            "time": "2019-11-27T10:47:53+00:00"
+            "time": "2019-12-10T07:59:07+00:00"
         }
     ],
     "packages-dev": [
