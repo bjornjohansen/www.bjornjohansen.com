@@ -1311,15 +1311,15 @@
         },
         {
             "name": "wpackagist-theme/twentytwenty",
-            "version": "1.0",
+            "version": "1.1",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/twentytwenty/",
-                "reference": "1.0"
+                "reference": "1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentytwenty.1.0.zip"
+                "url": "https://downloads.wordpress.org/theme/twentytwenty.1.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
