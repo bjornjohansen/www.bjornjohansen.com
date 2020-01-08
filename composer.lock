@@ -224,16 +224,16 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "6.5.0",
+            "version": "6.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "dbc2bc3a293ed6b1ae08a3651e2bfd213d19b6a5"
+                "reference": "43ece0e75098b7ecd8d13918293029e555a50f82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/dbc2bc3a293ed6b1ae08a3651e2bfd213d19b6a5",
-                "reference": "dbc2bc3a293ed6b1ae08a3651e2bfd213d19b6a5",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/43ece0e75098b7ecd8d13918293029e555a50f82",
+                "reference": "43ece0e75098b7ecd8d13918293029e555a50f82",
                 "shasum": ""
             },
             "require": {
@@ -287,7 +287,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2019-12-07T18:20:45+00:00"
+            "time": "2019-12-23T11:57:10+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -1328,37 +1328,6 @@
             "homepage": "https://wordpress.org/themes/twentytwenty/"
         },
         {
-            "name": "xrstf/composer-php52",
-            "version": "v1.0.20",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/composer-php52/composer-php52.git",
-                "reference": "bd41459d5e27df8d33057842b32377c39e97a5a8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/composer-php52/composer-php52/zipball/bd41459d5e27df8d33057842b32377c39e97a5a8",
-                "reference": "bd41459d5e27df8d33057842b32377c39e97a5a8",
-                "shasum": ""
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-default": "1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "xrstf\\Composer52": "lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "time": "2016-04-16T21:52:24+00:00"
-        },
-        {
             "name": "yoast/i18n-module",
             "version": "3.1.1",
             "source": {
@@ -1468,17 +1437,17 @@
         },
         {
             "name": "yoast/wordpress-seo-premium",
-            "version": "12.7.1",
+            "version": "12.8",
             "source": {
                 "type": "git",
                 "url": "git@github.com:Yoast-dist/wordpress-seo-premium.git",
-                "reference": "13c23c163c223fc15ae0cd9443ef85628737260f"
+                "reference": "db515dff8c30361e7e25e2ffcb8848c0cf9afbe5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-13c23c163c223fc15ae0cd9443ef85628737260f-zip-edd876.zip",
-                "reference": "13c23c163c223fc15ae0cd9443ef85628737260f",
-                "shasum": "3fdde1e5843959b4a393629012ca3513a495164d"
+                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-db515dff8c30361e7e25e2ffcb8848c0cf9afbe5-zip-7bf726.zip",
+                "reference": "db515dff8c30361e7e25e2ffcb8848c0cf9afbe5",
+                "shasum": "d257ad416a795b27582f6500de98d8108a25b4bc"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -1489,13 +1458,12 @@
                 "psr/log": "^1.0",
                 "ruckusing/ruckusing-migrations": "^1.1",
                 "symfony/dependency-injection": "^3.4",
-                "xrstf/composer-php52": "^1.0.20",
                 "yoast/i18n-module": "^3.1.1",
                 "yoast/license-manager": "1.6.0"
             },
             "require-dev": {
                 "atanamo/php-codeshift": "^1.0",
-                "brain/monkey": "^2.2",
+                "brain/monkey": "^2.4",
                 "humbug/php-scoper": "^0.12.0",
                 "phpcompatibility/phpcompatibility-wp": "^2.0.0",
                 "phpunit/phpunit": "^5.7",
@@ -1626,7 +1594,7 @@
                 "wiki": "https://github.com/Yoast/wordpress-seo/wiki",
                 "source": "https://github.com/Yoast/wordpress-seo"
             },
-            "time": "2019-12-12T09:15:22+00:00"
+            "time": "2020-01-07T13:14:08+00:00"
         }
     ],
     "packages-dev": [
