@@ -1113,15 +1113,15 @@
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
-            "version": "5.1.4",
+            "version": "5.2.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
-                "reference": "tags/5.1.4"
+                "reference": "tags/5.2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.5.1.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.5.2.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
