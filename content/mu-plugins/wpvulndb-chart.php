@@ -2,7 +2,7 @@
 /**
  * Add the wpvulndb_chart shortload.
  *
- * @package bjornjohansen\bjornjohansen.com
+ * @package bjornjohansen\www.bjornjohansen.com
  */
 
 /**

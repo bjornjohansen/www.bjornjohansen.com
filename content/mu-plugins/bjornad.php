@@ -50,7 +50,7 @@ add_filter(
 			return $content;
 		}
 
-		$ad = '<div style="margin-bottom: 3em; border-top: 1px solid #aaa; border-bottom: 1px solid #aaa;"><div style="font-size: 0.75em; color: #aaa; padding-bottom: 1em;">Advertisement:</div><div style="text-align: center"><a href="https://servebolt.com/platforms/wordpress/?ref=bjornjohansen" rel="nofollow"><img src="https://bjornjohansen.com/content/uploads/2018/05/servebolt-ad.png" border="0"></a></div></div>';
+		$ad = '<div style="margin-bottom: 3em; border-top: 1px solid #aaa; border-bottom: 1px solid #aaa;"><div style="font-size: 0.75em; color: #aaa; padding-bottom: 1em;">Advertisement:</div><div style="text-align: center"><a href="https://servebolt.com/platforms/wordpress/?ref=bjornjohansen" rel="nofollow"><img src="https://www.bjornjohansen.com/content/uploads/2018/05/servebolt-ad.png" border="0"></a></div></div>';
 
 		if ( strpos( $content, '<!--more-->' ) ) {
 			$content = str_replace( '<!--more-->', $ad . '<!--more-->', $content );

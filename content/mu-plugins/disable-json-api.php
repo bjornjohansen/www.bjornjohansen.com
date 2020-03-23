@@ -2,7 +2,7 @@
 /**
  * WP REST API customizations.
  *
- * @package bjornjohansen\bjornjohansen.com
+ * @package bjornjohansen\www.bjornjohansen.com
  */
 
 /**
