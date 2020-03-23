@@ -2,7 +2,7 @@
 /**
  * Populate the upload mimes with some useful data.
  *
- * @package bjornjohansen\bjornjohansen.no
+ * @package bjornjohansen\bjornjohansen.com
  */
 
 /**

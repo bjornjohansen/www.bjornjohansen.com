@@ -2,7 +2,7 @@
 /**
  * The WordPress loader file.
  *
- * @package bjornjohansen\bjornjohansen.no
+ * @package bjornjohansen\bjornjohansen.com
  */
 
 define( 'WP_USE_THEMES', true );

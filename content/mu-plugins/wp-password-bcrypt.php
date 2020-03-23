@@ -2,7 +2,7 @@
 /**
  * Replaces wp_hash_password and wp_check_password with PHP 5.5's password_hash and password_verify.
  *
- * @package bjornjohansen\bjornjohansen.no
+ * @package bjornjohansen\bjornjohansen.com
  */
 
 /**

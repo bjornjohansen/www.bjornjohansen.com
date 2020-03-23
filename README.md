@@ -1,2 +1,2 @@
-# bjornjohansen.no
-The bjornjohansen.no website
+# bjornjohansen.com
+The bjornjohansen.com website

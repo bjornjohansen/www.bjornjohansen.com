@@ -2,7 +2,7 @@
 /**
  * The WordPress configuration file.
  *
- * @package bjornjohansen\bjornjohansen.no
+ * @package bjornjohansen\bjornjohansen.com
  */
 
 define( 'DB_NAME', getenv( 'WP_DB_NAME' ) );
@@ -25,7 +25,7 @@ define( 'NONCE_SALT', getenv( 'WP_NONCE_SALT' ) );
 $table_prefix = 'bj_';
 
 define( 'WP_CONTENT_DIR', __DIR__ . '/content' );
-define( 'WP_CONTENT_URL', 'https://bjornjohansen.no/content' );
+define( 'WP_CONTENT_URL', 'https://bjornjohansen.com/content' );
 
 define( 'DISALLOW_FILE_MODS', true );
 
