@@ -30,6 +30,7 @@
         "wpackagist-theme/hello-elementor": "*",
         "wpackagist-plugin/elementor": "*",
         "wpackagist-plugin/instant-page": "*",
+        "wpackagist-plugin/google-site-kit": "*",
         "wpackagist-theme/twentytwenty": "^1.0"
     },
     "extra": {
