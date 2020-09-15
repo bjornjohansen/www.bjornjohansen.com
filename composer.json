@@ -3,10 +3,6 @@
         "wpackagist": {
             "type": "composer",
             "url": "https://wpackagist.org"
-        },
-        "my-yoast": {
-            "type": "composer",
-            "url": "https://my.yoast.com/packages/"
         }
     },
     "require": {
@@ -25,7 +21,7 @@
         "wpackagist-plugin/wp-cron-control": "*",
         "wpackagist-plugin/wp-crontrol": "*",
         "wpackagist-plugin/gutenberg": "*",
-        "yoast/wordpress-seo-premium": "*",
+        "wpackagist-plugin/wordpress-seo": "*",
         "10up/elasticpress": "^3",
         "wpackagist-theme/hello-elementor": "*",
         "wpackagist-plugin/elementor": "*",
