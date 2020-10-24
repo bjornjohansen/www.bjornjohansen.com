@@ -449,15 +449,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "9.2.0",
+            "version": "9.2.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/9.2.0"
+                "reference": "tags/9.2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.9.2.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.9.2.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
