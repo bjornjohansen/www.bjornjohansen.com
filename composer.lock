@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "10up/elasticpress",
-            "version": "3.5",
+            "version": "3.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/10up/ElasticPress.git",
-                "reference": "8dc2bf5cf0c99cce73fe400311af97d2a90a92c2"
+                "reference": "8bc017231c0979129a644c0994e5bd12748a08b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/10up/ElasticPress/zipball/8dc2bf5cf0c99cce73fe400311af97d2a90a92c2",
-                "reference": "8dc2bf5cf0c99cce73fe400311af97d2a90a92c2",
+                "url": "https://api.github.com/repos/10up/ElasticPress/zipball/8bc017231c0979129a644c0994e5bd12748a08b5",
+                "reference": "8bc017231c0979129a644c0994e5bd12748a08b5",
                 "shasum": ""
             },
             "require": {
@@ -65,7 +65,7 @@
                 "search",
                 "wordpress"
             ],
-            "time": "2020-10-20T23:23:32+00:00"
+            "time": "2020-10-29T13:55:20+00:00"
         },
         {
             "name": "bjornjohansen/spiderbear",
