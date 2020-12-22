@@ -377,7 +377,7 @@
         },
         {
             "name": "wpackagist-plugin/duo-wordpress",
-            "version": "2.5.6",
+            "version": "2.5.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/duo-wordpress/",
@@ -385,7 +385,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/duo-wordpress.zip?timestamp=1598990287"
+                "url": "https://downloads.wordpress.org/plugin/duo-wordpress.zip?timestamp=1608214566"
             },
             "require": {
                 "composer/installers": "~1.0"
