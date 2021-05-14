@@ -44,6 +44,5 @@
         }
     },
     "require-dev": {
-        "bjornjohansen/wp-pre-commit-hook": "*"
     }
 }
