@@ -256,8 +256,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/refs/tags/5.7.1",
-                "reference": "5.7.1"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/refs/tags/5.7.1"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -406,7 +405,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/duo-wordpress.zip?timestamp=1608214566"
+                "url": "https://downloads.wordpress.org/plugin/duo-wordpress.zip?timestamp=1620145177"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -470,15 +469,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "10.5.3",
+            "version": "10.6.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/10.5.3"
+                "reference": "tags/10.6.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.10.5.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.10.6.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
