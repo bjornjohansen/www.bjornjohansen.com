@@ -1,4 +1,7 @@
 {
+    "name": "bjornjohansen/www.bjornjohansen.com",
+    "description": "The www.bjornjohansen.com website",
+    "license": "GPL-2.0-or-later",
     "repositories": {
         "wpackagist": {
             "type": "composer",
