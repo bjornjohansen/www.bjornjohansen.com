@@ -1,0 +1,7 @@
+plugins:
+  phpcodesniffer:
+    enabled: true
+    config:
+        standard: "WordPress-Extra"
+  phpmd:
+    enabled: true
