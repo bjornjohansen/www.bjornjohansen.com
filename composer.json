@@ -9,17 +9,17 @@
         }
     },
     "require": {
-        "composer/installers": "*",
-        "roots/wordpress": "*",
-        "wpackagist-plugin/disable-emojis": "*",
-        "wpackagist-plugin/akismet": "*",
-        "wpackagist-plugin/oembed-gist": "*",
-        "wpackagist-plugin/show-parent-comment": "*",
-        "wpackagist-plugin/wp-cron-control": "*",
-        "wpackagist-plugin/wp-crontrol": "*",
-        "wpackagist-plugin/wordpress-seo": "*",
-        "wpackagist-plugin/instant-page": "*",
-        "wpackagist-plugin/google-site-kit": "*",
+        "composer/installers": "^1.11",
+        "roots/wordpress": "^5.7",
+        "wpackagist-plugin/disable-emojis": "^1.7",
+        "wpackagist-plugin/akismet": "^4.1",
+        "wpackagist-plugin/oembed-gist": "^4.9",
+        "wpackagist-plugin/show-parent-comment": "^0.2.1",
+        "wpackagist-plugin/wp-cron-control": "^0.7.1",
+        "wpackagist-plugin/wp-crontrol": "^1.10",
+        "wpackagist-plugin/wordpress-seo": "^16.5",
+        "wpackagist-plugin/instant-page": "^5.1",
+        "wpackagist-plugin/google-site-kit": "^1.34",
         "wpackagist-theme/twentytwenty": "^1.0"
     },
     "extra": {
@@ -35,7 +35,5 @@
                 "type:wordpress-theme"
             ]
         }
-    },
-    "require-dev": {
     }
 }
